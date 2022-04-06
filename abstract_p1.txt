@@ -6,7 +6,6 @@ Pasajeros
 	-fecha_nacimiento
 	-nacionalidad
 	-pasaporte
-	-doc_identificacion
 	-genero
 	-telefono
 	-correo
@@ -16,6 +15,7 @@ Identificacion
 	-numero_identificacion
 	-tipo
 	-nacionalidad
+	-usuario
 	
 Metodo_Pago
 	-usuario
@@ -47,17 +47,16 @@ Plan_Vuelo
 	-codigo_vuelo
 	-tipo_avion
 	-distancia (millas)
-	-precios*
-	-dia*
-(Salida)
-	-aeropuerto
-	-puerta_por_defecto
+	-aeropuerto_salida
+	-puerta_por_defecto_salida
 	-hora_salida
-	-hora_abordaje	
-(Llegada)
-	-aeropuerto
-	-puerta_por_defecto
+	-hora_abordaje_salida	
+	-aeropuerto_llegada
+	-puerta_por_defecto_llegada
 	-hora_llegada
+	-estado_temporal
+	-es_temporal
+	
 Precios
 	-vuelo
 	-precios*
@@ -65,11 +64,13 @@ Precios
 
 Dia
 	-codigo_vuelo
+	-fecha
 	-dia
 	
 
 	
 Clase_Vuelo
+	-tipo_clase
 	-filas
 	-tarifas_cambio
 	-maletas_documentadas
@@ -77,9 +78,10 @@ Clase_Vuelo
 	-maleta_mano
 	-eleccion_asiento
 	
-Precio
+Precio_Limite_Boleto
 	-tipo_vuelo
 	-tipo_persona
+	-clase_vuelo
 	-costo
 	-aumento
 	-limite_voleto
@@ -97,6 +99,7 @@ Equipaje
 	
 Maleta_Mano
 	-dimension
+	-precio
 	-numero
 	
 Maleta_Documentado
@@ -127,38 +130,7 @@ Distribucion_Asiento
 	-total_asientos_ce
 	-tripulantes
 	-codigo_avion
-	
-	
-Vuelo_Temporal
-	-codigo_vuelo
-	-tipo_avion
-	-fecha_inicio
-	-fecha_final
-	-distancia
-	-dia
-	-precios*
-	-estado
-	
-Dia
-	-vuelo
-	-dia
-	
-Salida
-	-aeropuerto
-	-puerta_por_defecto
-	-hora
-	-hora_abordaje
-	
-Llegada
-	-aeropuerto
-	-puerta_por_defecto
-	-hora
-	
-Precios
-	-vuelo
-	-precios*
-	-clase
-	
+		
 	
 Comprador_Boleto
 	-nombre_completa
