@@ -1,0 +1,275 @@
+			PROYECTO DE LABORATORIO DE SISTEMA DE BASES DE DATOS
+Pasajeros
+	-nombre_usuario
+	-contrasena
+	-nombre_completa
+	-fecha_nacimiento
+	-nacionalidad
+	-pasaporte
+	-doc_identificacion
+	-genero
+	-telefono
+	-correo
+	-fecha_creacion
+	
+Identificacion
+	-numero_identificacion
+	-tipo
+	-nacionalidad
+	
+Metodo_Pago
+	-usuario
+	-metodo_pago
+	
+
+Millas_Usuario
+	-usuario
+	-millas
+	-tipo_user
+	-millas_por_dolar
+	-tiempo_cuenta
+	-numero_vuelos
+	
+
+	
+Mascotas
+	-nombre
+	-especie
+	-peso
+	-descripcion
+	-certificado_veterinario
+	
+Lista_Vacunas
+	-mascota
+	-vacuna
+	
+Plan_Vuelo
+	-codigo_vuelo
+	-tipo_avion
+	-distancia (millas)
+	-precios*
+	-dia*
+(Salida)
+	-aeropuerto
+	-puerta_por_defecto
+	-hora_salida
+	-hora_abordaje	
+(Llegada)
+	-aeropuerto
+	-puerta_por_defecto
+	-hora_llegada
+Precios
+	-vuelo
+	-precios*
+	-clase
+
+Dia
+	-codigo_vuelo
+	-dia
+	
+
+	
+Clase_Vuelo
+	-filas
+	-tarifas_cambio
+	-maletas_documentadas
+	-peso
+	-maleta_mano
+	-eleccion_asiento
+	
+Precio
+	-tipo_vuelo
+	-tipo_persona
+	-costo
+	-aumento
+	-limite_voleto
+
+	
+aseguranza*
+	-usuario
+	-vuelo
+	
+
+
+Equipaje
+	-tipo
+	-
+	
+Maleta_Mano
+	-dimension
+	-numero
+	
+Maleta_Documentado
+	-peso
+	-precio_primera_maleta
+	-precio_segunda_maleta
+	-precio_tercera_maleta
+	
+	
+Avion
+	-codigo
+	-tipo_avion
+	-fecha_adquisicion
+	-fecha_primer_vuelo
+	-fecha_ultimo_mantenimiento
+	-estado
+	-asientos_disponibles
+	
+Distribucion_Asiento
+	-filas_pc
+	-asientos_por_fila_pc
+	-total_asientos_pc
+	-filas_cb
+	-asientos_por_fila_cb
+	-total_asientos_cb
+	-filas_ce
+	-asientos_por_fila_ce
+	-total_asientos_ce
+	-tripulantes
+	-codigo_avion
+	
+	
+Vuelo_Temporal
+	-codigo_vuelo
+	-tipo_avion
+	-fecha_inicio
+	-fecha_final
+	-distancia
+	-dia
+	-precios*
+	-estado
+	
+Dia
+	-vuelo
+	-dia
+	
+Salida
+	-aeropuerto
+	-puerta_por_defecto
+	-hora
+	-hora_abordaje
+	
+Llegada
+	-aeropuerto
+	-puerta_por_defecto
+	-hora
+	
+Precios
+	-vuelo
+	-precios*
+	-clase
+	
+	
+Comprador_Boleto
+	-nombre_completa
+	-telefono
+	-correo
+	-doc_identificacion
+	-metodo_pago
+	-fecha_compra
+	-fecha_cancelacion
+	-fecha_modificacion
+	-estado_compra
+	
+Boletos
+	-codigo_vuelo
+	-dia_vuelo
+	-clase
+	-asiento
+	-aseguranza*
+	-codigo_boleto
+	-codigo_persona_boleto
+	
+Pesona_Boleto
+	-nombre_completo
+	-fecha_nacimiento
+	-nacionalidad
+	-doc_identificacion
+	-genero
+	-telefono
+	-correo
+
+
+Viaje_Ida_Vuelta
+	-clase_boleto
+	-descuento
+	
+Control_Vuelo
+	-codigo_vuelo
+	-estado
+	-hora_salida
+	-hora_llegada
+	
+
+Compras_A_Bordo
+	-usuario
+	-tipo_compra
+	-precio
+	-cantidad
+	
+
+Pelicula
+	-nombre
+	-descripcion
+	-categoria
+	-actores
+	-precio
+	-duracion
+	-clasificacion
+	
+Wifi
+	-nombre
+	-precio
+	-pasword
+	
+Menu_Gratis
+	-tipo
+	-nombre
+	-existente
+	-costo
+	
+Menu_Pago
+	-nombre
+	-descripcion
+	-precio_venta
+	-costo
+	
+Lista_Ingredientes
+	-producto
+	-nombre_ingrediente
+	-descripcion
+	
+	
+Encuesta_Servicio
+	-codigo_vuelo
+	-vuelo_general
+	-servicio_tripulantes
+	-comida
+	-nota_adicional
+	-codigo_user
+	
+	
+Personal_Aerolinea
+	-nombre
+	-codigo_empleado
+	-fecha_nacimiento
+	-telefono
+	-correo
+	
+Personal_Abordo
+	-codigo_empleado
+	-codigo_vuelo
+	-puesto
+	-experiencia
+	-anios_aeronlinea
+	-comision
+	
+Horario_Empleado
+	-fecha
+	-hora_inicio
+	-hora_termino
+	-codigo_empleado
+	-jornada
+	-saldo_total
+
+
