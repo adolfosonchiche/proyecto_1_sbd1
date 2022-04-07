@@ -4,8 +4,6 @@ Pasajeros
 	-contrasena
 	-nombre_completa
 	-fecha_nacimiento
-	-nacionalidad
-	-pasaporte
 	-genero
 	-telefono
 	-correo
@@ -57,10 +55,6 @@ Plan_Vuelo
 	-estado_temporal
 	-es_temporal
 	
-Precios
-	-vuelo
-	-precios*
-	-clase
 
 Dia
 	-codigo_vuelo
@@ -71,12 +65,15 @@ Dia
 	
 Clase_Vuelo
 	-tipo_clase
-	-filas
 	-tarifas_cambio
 	-maletas_documentadas
 	-peso
 	-maleta_mano
 	-eleccion_asiento
+	-tipo_pasajero
+	-precios
+	-aseguranza
+	-porcentaje
 	
 Precio_Limite_Boleto
 	-tipo_vuelo
@@ -85,11 +82,6 @@ Precio_Limite_Boleto
 	-costo
 	-aumento
 	-limite_voleto
-
-	
-aseguranza*
-	-usuario
-	-vuelo
 	
 
 
@@ -132,7 +124,7 @@ Distribucion_Asiento
 	-codigo_avion
 		
 	
-Comprador_Boleto
+Comprado_Boleto
 	-nombre_completa
 	-telefono
 	-correo
@@ -152,7 +144,7 @@ Boletos
 	-codigo_boleto
 	-codigo_persona_boleto
 	
-Pesona_Boleto
+Pasajero
 	-nombre_completo
 	-fecha_nacimiento
 	-nacionalidad
@@ -160,6 +152,7 @@ Pesona_Boleto
 	-genero
 	-telefono
 	-correo
+	-fecha_adquisicion
 
 
 Viaje_Ida_Vuelta
@@ -193,6 +186,7 @@ Wifi
 	-nombre
 	-precio
 	-pasword
+	-avion
 	
 Menu_Gratis
 	-tipo
@@ -204,6 +198,7 @@ Menu_Pago
 	-nombre
 	-descripcion
 	-precio_venta
+	-existente
 	-costo
 	
 Lista_Ingredientes
