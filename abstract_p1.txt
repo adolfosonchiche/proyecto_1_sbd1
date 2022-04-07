@@ -1,4 +1,8 @@
+link_repo del proyecto:  https://github.com/adolfosonchiche/proyecto_1_sbd1.git
+
+
 			PROYECTO DE LABORATORIO DE SISTEMA DE BASES DE DATOS
+
 Pasajeros
 	-nombre_usuario
 	-contrasena
