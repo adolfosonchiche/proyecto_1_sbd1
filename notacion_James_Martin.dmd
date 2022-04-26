@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="notacion_James_Martin" id="25B4FE34-85DC-1573-5113-47EF3471AE49" version="3.5">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-26 04:31:49 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>25B4FE34-85DC-1573-5113-47EF3471AE49</designId>
+</OSDM_Design>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="8449C725-BED4-3C33-DCA1-A705736ED936">
+<createdBy>hectoradolfo</createdBy>
+<modifiedBy>hectoradolfo</modifiedBy>
+<createdTime>2022-04-26 04:51:33 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C699DDE5-FBAD-32E7-F88B-5ED205E95184" otype="Entity" vid="5BA5D783-D706-BFB2-37AD-3E8FA33544E7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="116" y="66" width="258" height="183"/>
+</OView>
+</objectViews>
+<displays>
+<Display class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Display_1" id="6025297A-9D04-5DA7-1954-A5EF1BC750CE">
+<createdBy>hectoradolfo</createdBy>
+<modifiedBy>hectoradolfo</modifiedBy>
+<createdTime>2022-04-26 05:37:26 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>true</display>
+<notation>2</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C699DDE5-FBAD-32E7-F88B-5ED205E95184" otype="Entity" vid="092ADBA6-65F0-1234-3735-599B0EB214A8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="116" y="66" width="258" height="183"/>
+</OView>
+</objectViews>
+</Display>
+</displays>
+</Diagram>
