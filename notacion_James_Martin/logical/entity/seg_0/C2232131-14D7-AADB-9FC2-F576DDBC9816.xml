@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C699DDE5-FBAD-32E7-F88B-5ED205E95184" name="USUARIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2232131-14D7-AADB-9FC2-F576DDBC9816" name="MENU">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:18:58 UTC</createdTime>
+<createdTime>2022-04-27 00:27:23 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -15,60 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="usuario" id="71F53ED4-ABDD-5914-3804-4261B03ADC5C">
+<Attribute name="id" id="167D9DDD-ABF8-13B8-A57D-E7309FF7247E">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:19:12 UTC</createdTime>
+<createdTime>2022-04-27 00:35:06 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nombre" id="6B256D95-354B-3BC5-3118-EBFCF1CFD9F0">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:21:32 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="contrasena" id="B9943469-3886-52B2-34D2-B178DA608D27">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:22:24 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="birthday" id="83800739-F48A-D119-E2E9-3FAC2F7DA1D7">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:39:17 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="correo" id="CC54E3F0-6158-ABBE-51CD-2D1416BE496D">
+<Attribute name="nombre" id="CA1E0C25-AFD4-BF5C-A7F1-F309A621D6FA">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:39:44 UTC</createdTime>
+<createdTime>2022-04-27 00:36:05 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -79,9 +40,9 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="genero" id="08F0FD82-261C-3D6C-EF93-1D0CF7357B83">
+<Attribute name="tipo" id="5768298C-1DCA-A362-66E7-3B2C09B7B35A">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:40:12 UTC</createdTime>
+<createdTime>2022-04-27 00:36:25 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -89,50 +50,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefono" id="BF08D76C-92D1-F30B-2611-1B2290929CF6">
+<Attribute name="descripcion" id="DC14E1E3-12D4-DCAF-0003-0BB74CF2AD04">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:40:53 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_creacion" id="C5C71649-A012-9DBD-A894-6FF077A5E858">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:42:19 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tipo_cuenta" id="D6F77902-0BF9-B652-0D3C-1925BD594851">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:43:39 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>35</dataTypeSize>
-<ownDataTypeParameters>35,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="millas" id="08A54A60-C341-FE01-24A3-996C4A8D9CCD">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:44:11 UTC</createdTime>
+<createdTime>2022-04-27 00:36:51 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -140,21 +63,88 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="C49B43DC-DCDB-BDB5-26B2-67DD68D94A38">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 00:37:12 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="existencia" id="75D8D336-DE32-5BBF-5C4E-9E094B28077C">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 00:37:31 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="D046FFB8-C41D-69A5-46EC-8ABFEB8F7D66">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 00:37:44 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="F877D58A-BC8E-2F90-B476-5754862DE0E5">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 00:38:32 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo_ofrece" id="BB98A60D-9760-8FD5-D537-466222C3BD72">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 00:39:58 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CE5C9259-419D-6FDB-D520-CF856CACA951" name="Usuario PK">
+<identifier id="56B93633-DA91-7977-4EC4-1EF0004744FC" name="MENU PK">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:21:29 UTC</createdTime>
+<createdTime>2022-04-27 00:36:03 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>71F53ED4-ABDD-5914-3804-4261B03ADC5C</attributeRef>
+<attributeRef>167D9DDD-ABF8-13B8-A57D-E7309FF7247E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
