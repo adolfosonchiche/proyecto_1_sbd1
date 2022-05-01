@@ -15,19 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="mascota" id="88D200A3-4AD2-4344-4DD1-B5405175DD17">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 18:54:58 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="vacuna" id="8A6FB391-34AB-DC9A-A1AE-6E06F4116D97">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 18:55:12 UTC</createdTime>
@@ -41,6 +28,36 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="certificado_veterinario" id="2557E10C-DA44-3BB8-C55C-7D006FD0AFAF">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 22:34:11 UTC</createdTime>
+<generatorID>0E58B902-406B-7D23-C3E0-09F68EC4D1B6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>E9EC8FD3-1403-BA48-9D8B-D78AB80C493B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0B455ADB-6372-0165-8465-53517A66D94B">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 22:34:11 UTC</createdTime>
+<generatorID>0E58B902-406B-7D23-C3E0-09F68EC4D1B6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>E7F84273-31DF-3F3B-42D0-46D64CF109CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2BF4EE7D-0278-FC91-8761-B25E23BBE09E" name="LISTA_VACUNA PK">
@@ -52,7 +69,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>88D200A3-4AD2-4344-4DD1-B5405175DD17</attributeRef>
+<attributeRef>0B455ADB-6372-0165-8465-53517A66D94B</attributeRef>
+<attributeRef>2557E10C-DA44-3BB8-C55C-7D006FD0AFAF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

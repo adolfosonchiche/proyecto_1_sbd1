@@ -118,9 +118,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_precio" id="831AEE36-C368-CA35-6E30-58EF01D3FD7D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:11:16 UTC</createdTime>
+<generatorID>E460670A-FC3A-FC03-EFAD-AA3BCE541D5A</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>1C08CFBC-A3DA-23A9-C82C-B3AB4710281F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -134,6 +149,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FAC059D3-206F-690C-7098-5C40653114EA</attributeRef>
+<attributeRef>831AEE36-C368-CA35-6E30-58EF01D3FD7D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

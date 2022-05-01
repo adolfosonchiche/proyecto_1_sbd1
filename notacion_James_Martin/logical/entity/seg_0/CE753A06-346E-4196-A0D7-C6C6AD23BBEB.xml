@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE753A06-346E-4196-A0D7-C6C6AD23BBEB" name="COMPRA_ABORDO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE753A06-346E-4196-A0D7-C6C6AD23BBEB" name="COMPRA_WFI">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 18:23:20 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
@@ -27,19 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="producto" id="703C7116-FD61-0BCA-C481-4657CA0A9D29">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 18:29:06 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="precio" id="AB87C087-F2EA-5A15-A240-7733B78CEDE3">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 18:30:11 UTC</createdTime>
@@ -50,9 +37,38 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_boleto" id="DFD722EE-DB6E-F36C-C975-98E534B12485">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 21:49:19 UTC</createdTime>
+<generatorID>45E85A41-1741-4FCF-1781-1C51CF7B7083</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>E60182DF-6F91-13DD-31EF-EDE038166C40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_wifi" id="D7390E66-8E6D-5820-E4FE-0772223A8A56">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 06:51:08 UTC</createdTime>
+<generatorID>13B7AA05-CD63-6879-FC86-E74F1DB7731B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>1CE48847-E1E5-82CB-3388-B514C3A3BB2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

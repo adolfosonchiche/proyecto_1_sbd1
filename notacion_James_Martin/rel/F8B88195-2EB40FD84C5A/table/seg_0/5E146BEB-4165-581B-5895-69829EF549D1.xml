@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E146BEB-4165-581B-5895-69829EF549D1" name="MENU">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>C2232131-14D7-AADB-9FC2-F576DDBC9816</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_menu" id="58465B0F-F981-ABEC-2334-28AB72FF9484">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>167D9DDD-ABF8-13B8-A57D-E7309FF7247E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="AE1A8D1C-837A-9416-E33A-70EFAFC99789">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>CA1E0C25-AFD4-BF5C-A7F1-F309A621D6FA</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="7A4BB1CA-AE52-F83F-5042-6FBF89B7790F">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>5768298C-1DCA-A362-66E7-3B2C09B7B35A</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="43BFD4A6-8246-1DDA-075E-1A0ED199D204">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>DC14E1E3-12D4-DCAF-0003-0BB74CF2AD04</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="82098C70-B05E-F3E3-2510-144663375FC3">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>C49B43DC-DCDB-BDB5-26B2-67DD68D94A38</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="existencia" id="65B21841-AD07-7FD7-2771-0CC15ED1DA24">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>75D8D336-DE32-5BBF-5C4E-9E094B28077C</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="6B631AA5-B54B-DCEC-0F57-13F7AAA4E75B">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>D046FFB8-C41D-69A5-46EC-8ABFEB8F7D66</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="6DD886A2-5B02-9A30-CABB-6410FDE1BA34">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>F877D58A-BC8E-2F90-B476-5754862DE0E5</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiempo_ofrece" id="84781DBD-A562-2BA6-9A5F-B6BE3315591C">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>BB98A60D-9760-8FD5-D537-466222C3BD72</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67B5914D-9154-EA17-1AFE-D02C82100054" name="MENU_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>56B93633-DA91-7977-4EC4-1EF0004744FC</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58465B0F-F981-ABEC-2334-28AB72FF9484"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

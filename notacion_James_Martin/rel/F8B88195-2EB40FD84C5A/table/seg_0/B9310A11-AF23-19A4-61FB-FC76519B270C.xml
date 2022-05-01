@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9310A11-AF23-19A4-61FB-FC76519B270C" name="AVION">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>2923B4D1-CC1D-8656-DD10-51B3C872185C</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_avion" id="61244AA8-3AF3-7E15-097A-B35BDDE51BD5">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>061D0818-4B56-73D8-5F96-37751210B85D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_avion" id="EBE6941D-5F67-4837-5D84-995066407D0C">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>6B8AA7A2-B857-8F3F-26F9-D6C7B9F64DFB</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_adquisicion" id="FB8F2501-F40B-DD49-B332-F57B3B43F8A7">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>ED587DB8-5FA3-484B-6CFF-1F5F0651F128</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_mantenimiento" id="8857CBBC-0389-BEDC-051E-620FA342D516">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>0F56ED22-19D1-B961-E036-4240B8F81DC7</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="939C193E-2E9C-6DB2-05E8-A7DBE55D0847">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>EA78D164-7F44-3E30-7DA1-F8DD5AC2E641</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_tripulante" id="B53AD3AC-7741-1834-6055-874C9136D45E">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>125A985D-173F-FA99-4CCA-D178071B660E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_asiento" id="040785E3-F057-723A-25EA-B86E3582E93B">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>A43CA5BB-70A3-A86E-D882-FB88E52B77B5</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_primer_vuelo" id="CF8277C0-D9D8-5EB2-9870-D6FC4910CC7C">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>6266C8AF-CA83-C971-3F8D-068D532FDD3E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTRIBUCION_ASIENTO_id_distribucion" id="574BA8DF-CA78-BC0B-B07D-8E725F10EEEE">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>B10199EC-5393-FC66-B098-136B36735CDC</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="241BA79B-E848-A6C6-C615-C6FC792A09B0" referredColumn="DF4C6C96-B9F0-A4AE-FF19-6CD2E09A8F00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75807145-F6F0-3445-53C2-80AB2C547AA9" name="AVION_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>6EE487D8-5978-6BAB-BBB2-3C1D4E46803B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61244AA8-3AF3-7E15-097A-B35BDDE51BD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68E2028B-10AA-C8AF-34A9-AC6A17C2EC38" name="AVION_DISTRIBUCION_ASIENTO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>269DEABF-8EA7-1960-3CCE-C54C9FB1B936</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="574BA8DF-CA78-BC0B-B07D-8E725F10EEEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

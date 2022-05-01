@@ -42,6 +42,21 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="usuario" id="2CF1A250-1C23-B8D0-14DB-A4488B36B69E">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 05:36:15 UTC</createdTime>
+<generatorID>697C603E-68BD-AB89-3D58-FD20989B2FFA</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>71F53ED4-ABDD-5914-3804-4261B03ADC5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3A1D6FCC-C677-92FA-99BA-27FF0E0E50C3" name="Identificacion PK">

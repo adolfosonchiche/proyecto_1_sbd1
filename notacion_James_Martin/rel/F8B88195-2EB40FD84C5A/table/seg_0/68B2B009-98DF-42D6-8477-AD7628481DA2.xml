@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68B2B009-98DF-42D6-8477-AD7628481DA2" name="ENCUESTA_SERVICIO">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>F2EBE25A-96CE-A3E8-259E-6E021E240848</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_encuesta" id="CD8F08E0-98E5-ACCE-FF18-269A07DC0C5D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>7B36EF30-B8D8-2F5D-53C2-334300A83425</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vuelo_general" id="1507C1CA-C539-A340-E6F9-1A55E6DD06AA">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>4530407A-2B61-E968-3E28-1039283F925B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servicio_tripulante" id="CC053216-D759-F550-4168-1CF6FEB5C39C">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>0B6F7A58-86EC-E957-EE84-88EB7060D2C3</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comida" id="F4222204-642B-05BF-FB0F-FA098251ED69">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>CDC59E78-D0AF-2EF4-8DBD-98FDBED37C78</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_adicional" id="B70F7410-4744-F081-717A-EAB764576118">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>8923BF1D-F45A-1C0F-59B9-0256B60769CC</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BBDD5ED-C4F7-7E9C-200F-F768B411A4B1" name="ENCUESTA_SERVICIO_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>A4CF5906-8193-A4B7-C851-2841F23B1D94</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8F08E0-98E5-ACCE-FF18-269A07DC0C5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

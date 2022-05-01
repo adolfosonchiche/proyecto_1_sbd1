@@ -15,22 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_vuelo" id="01901F40-A01C-D5E6-96C7-BE450449D770">
+<Attribute name="id_plan_vuelo" id="01901F40-A01C-D5E6-96C7-BE450449D770">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 19:22:58 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="avion" id="77548FF4-3015-D93C-DB5A-ABFC316151AD">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 19:23:19 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -51,9 +38,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hora_llegada" id="F21FB8BE-EC55-6802-4147-2DADDE22507D">
 <createdBy>hectoradolfo</createdBy>
@@ -130,6 +117,35 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_avion" id="F4E5BC17-0F3C-A03A-4497-5EA4114D1EEB">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 04:51:19 UTC</createdTime>
+<generatorID>4B600804-1081-5220-F0B8-DD23963E79D3</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>061D0818-4B56-73D8-5F96-37751210B85D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="es_temporal" id="5AEAA1B5-B1F4-BB36-D3C4-1A23093EB6A8">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:16:54 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

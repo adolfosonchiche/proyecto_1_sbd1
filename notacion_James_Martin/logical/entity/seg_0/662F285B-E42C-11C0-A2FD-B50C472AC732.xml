@@ -27,19 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_empleado" id="94F342D4-1C8C-1D8F-2F3C-3341ED68A7A6">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 02:09:01 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="puesto" id="545D15F6-4FE8-0503-CBF4-A055F65E0F96">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 02:09:56 UTC</createdTime>
@@ -53,19 +40,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_vuelo" id="9685B379-4727-5D51-53D1-33AC2E46D6B6">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 02:10:18 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="comision" id="8BE365A1-B1E3-11FD-D48F-8543B15AA43F">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 02:15:30 UTC</createdTime>
@@ -76,9 +50,39 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_vuelo" id="E00FB42A-71E7-10C5-2400-8552D1129C7A">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 05:02:56 UTC</createdTime>
+<generatorID>8C9C312A-0407-92A3-2AB7-484224A2ED08</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>28C32301-A6E7-7476-5817-40973E49C503</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_empleado" id="4080C529-332D-4382-6EE2-B524C4FF98FB">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 05:06:43 UTC</createdTime>
+<generatorID>CFA1B9A2-FC0C-54DA-8E25-22E71761D5A2</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>6EC2D121-DC8F-A84A-61E7-929016C056AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

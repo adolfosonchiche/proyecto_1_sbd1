@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12B11771-D990-FF60-BFD9-AE46CEF7ACBB" name="VUELO_TEMPORAL">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>E2B3950B-ACA9-0EDC-06E7-60AF31C55441</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_temporal" id="00CA160E-DAFA-750D-F239-582B439AA385">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>F0934281-F693-CD87-3241-05D0A66D3B89</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="C4C26442-926C-93CF-1BC0-2EA217FA8542">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>8C60CD2B-925B-85B3-A222-A7F51DCEDC35</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_final" id="C6B9B852-C773-E13E-BC1E-C3006BE3C8DC">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>5E4B3D0D-6A8B-18CD-1A47-5EFF90625884</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="CBE9690A-4C6E-9C2B-8E3E-3783DC934809">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>8951B84C-064E-0CAA-B7EA-986FB5F7BE29</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_VUELO_id_plan_vuelo" id="D8EE9589-CED3-9B95-D623-8167CCC808E9">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>137C0F5D-9E75-A815-51D6-C6C24BFE76B1</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE58678E-0077-F2B5-E55B-41CE3982A98B" referredColumn="EB6BB6D3-F437-E496-D5D3-DC064ABB2E9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34739500-4093-9607-11E0-3D1D66E0ECC2" name="VUELO_TEMPORAL_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>F09D8A1D-9FAA-21DF-50C4-9FC525BFE821</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00CA160E-DAFA-750D-F239-582B439AA385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE74879B-22E7-8C66-45B3-A510C7691F30" name="VUELO_TEMPORAL_PLAN_VUELO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>4F6CE6B6-41AE-5155-8117-417BD537D236</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8EE9589-CED3-9B95-D623-8167CCC808E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

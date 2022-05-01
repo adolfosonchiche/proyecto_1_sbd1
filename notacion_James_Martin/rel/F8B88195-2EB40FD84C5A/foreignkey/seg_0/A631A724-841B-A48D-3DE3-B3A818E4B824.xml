@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A631A724-841B-A48D-3DE3-B3A818E4B824" containerWithKeyObject="2C6989E1-1815-220A-E1F4-854E346D32F1" localFKIndex="9A309D22-1B75-0D7E-3CF3-0316E3C7B535" name="DIA_VUELO_DIA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>CAD822F1-1661-1ED2-FE5C-6B22C713BFA6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>DIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F07E329A-72DD-A13D-549D-23DE3EA2C5D5</referredTableID>
+<keyObject>40D96DDE-95DF-4B4D-55FD-8CD227B20E17</keyObject>
+<referredKeyID>40D96DDE-95DF-4B4D-55FD-8CD227B20E17</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

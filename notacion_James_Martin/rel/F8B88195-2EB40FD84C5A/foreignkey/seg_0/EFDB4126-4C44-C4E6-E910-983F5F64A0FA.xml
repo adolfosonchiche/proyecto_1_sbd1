@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFDB4126-4C44-C4E6-E910-983F5F64A0FA" containerWithKeyObject="2DB1F4B9-B2BE-9938-5DEF-9B63D2C1DE82" localFKIndex="089C137E-DD90-0505-8E36-0A58B1DB4A4F" name="COMPRA_WFI_WIFI_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>13B7AA05-CD63-6879-FC86-E74F1DB7731B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>WIFI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57A178FE-5AFF-CA5C-1072-E6608B1AA8BC</referredTableID>
+<keyObject>7E84F9EE-77F1-2D73-C762-C3682493E06C</keyObject>
+<referredKeyID>7E84F9EE-77F1-2D73-C762-C3682493E06C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_wifi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

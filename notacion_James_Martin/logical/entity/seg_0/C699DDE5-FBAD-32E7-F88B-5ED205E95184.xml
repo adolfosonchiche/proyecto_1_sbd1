@@ -117,19 +117,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_cuenta" id="D6F77902-0BF9-B652-0D3C-1925BD594851">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 05:43:39 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>35</dataTypeSize>
-<ownDataTypeParameters>35,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="millas" id="08A54A60-C341-FE01-24A3-996C4A8D9CCD">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 05:44:11 UTC</createdTime>
@@ -141,6 +128,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_cuenta" id="A11D9256-DD73-B670-DC40-9EEB895D1ABF">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 05:47:22 UTC</createdTime>
+<generatorID>853C6972-4994-8211-687A-863CC5313684</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>D5EDC014-51C8-9BFB-CC53-6B207F6348C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

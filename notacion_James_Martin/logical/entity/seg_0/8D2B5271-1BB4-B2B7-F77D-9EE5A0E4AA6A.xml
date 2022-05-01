@@ -15,22 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo" id="0E7D0F8F-1E59-0A01-2810-0C5E5C1F6A8F">
+<Attribute name="id_boleto" id="0E7D0F8F-1E59-0A01-2810-0C5E5C1F6A8F">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 19:03:46 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_vuelo" id="CF768E87-C7BE-F898-3082-ECC460BB06CB">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 19:04:39 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -93,9 +80,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descuento" id="A3C04543-A8A0-8AF6-9DBD-ED2778562273">
 <createdBy>hectoradolfo</createdBy>
@@ -108,9 +95,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="aumento" id="0226F5E8-8123-AB9A-AC0B-EB36D2F3A3A6">
 <createdBy>hectoradolfo</createdBy>
@@ -123,9 +110,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_vuelo" id="3E13AEBE-3719-E173-6954-4EC75A1147A9">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 04:44:39 UTC</createdTime>
+<generatorID>44B79F30-12B3-1CC2-3DF6-DF3A89D35D6A</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>28C32301-A6E7-7476-5817-40973E49C503</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

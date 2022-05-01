@@ -49,22 +49,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_usuario" id="1A65053D-9C13-73E3-6D1A-07FF0EFFCEE2">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:44:53 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="milla_por_dolar" id="AAA2588F-52AC-2BE2-152E-EA2F83DA99CE">
 <createdBy>hectoradolfo</createdBy>
@@ -76,9 +63,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="04650A80-1937-8B40-0BED-571A52750CB3">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 05:48:56 UTC</createdTime>
+<generatorID>99BDBDB7-DCB1-5038-E93E-CA0E58D35C75</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>71F53ED4-ABDD-5914-3804-4261B03ADC5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -92,6 +94,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6B1224CA-9962-5780-4147-798B4C224523</attributeRef>
+<attributeRef>04650A80-1937-8B40-0BED-571A52750CB3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

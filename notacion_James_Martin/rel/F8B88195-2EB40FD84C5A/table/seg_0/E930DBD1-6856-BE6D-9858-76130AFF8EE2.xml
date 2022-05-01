@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E930DBD1-6856-BE6D-9858-76130AFF8EE2" name="CLASE_BOLETO">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>3F61223A-0EE0-140B-CB27-084A98720695</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="es_nino" id="5F06B651-18AA-3FD3-FFEB-BB5AACEF6D1F">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>1DB65F4D-E793-B8C0-6284-70ABD844813D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASE_clase" id="0B5F8D8F-C79C-FF53-3BD8-8D6116DFDA55">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>BE1E35D6-F8C3-F2F1-2DCD-F478C73D4CC8</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F71F23B-AB16-F07F-0211-945594C9C97E" referredColumn="8F648D39-DF1E-5C28-31D4-223C242748BB"/>
+</associations>
+</Column>
+<Column name="BOLETO_id_boleto" id="92665CEF-7AA0-5222-D1E2-CCDA7B61455D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>A9C08AFD-0EBF-0798-96E1-467342687C2D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6294E914-612F-F868-4D7B-689BBC7518D3" referredColumn="7D35EEEB-E741-0025-C13E-6DB69F859F38"/>
+</associations>
+</Column>
+<Column name="CLASE_PRECIO_id_precio" id="C5388597-9A57-1342-0287-93D6C292A2CA">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>AD6B4755-17E9-E90B-3728-EFC5CD93B66D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F71F23B-AB16-F07F-0211-945594C9C97E" referredColumn="ABA59C03-5000-0B2F-31A8-E963280E23D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18EFC794-F507-4D77-565A-C55C202B4AD7" name="CLASE_BOLETO_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>13D25756-30ED-6825-BAD7-93F355FAF457</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5F8D8F-C79C-FF53-3BD8-8D6116DFDA55"/>
+<colUsage columnID="C5388597-9A57-1342-0287-93D6C292A2CA"/>
+<colUsage columnID="92665CEF-7AA0-5222-D1E2-CCDA7B61455D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="904484ED-70B5-F2A2-6DD7-4F766B6EA21E" name="CLASE_BOLETO_CLASE_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>F5D4DDF4-9885-0826-1207-399ADA94FA7B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5F8D8F-C79C-FF53-3BD8-8D6116DFDA55"/>
+<colUsage columnID="C5388597-9A57-1342-0287-93D6C292A2CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA03B700-FF76-5255-C805-71933049384F" name="CLASE_BOLETO_BOLETO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>FE2A6B43-F25C-1FA6-2D03-E60D233D96D4</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92665CEF-7AA0-5222-D1E2-CCDA7B61455D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

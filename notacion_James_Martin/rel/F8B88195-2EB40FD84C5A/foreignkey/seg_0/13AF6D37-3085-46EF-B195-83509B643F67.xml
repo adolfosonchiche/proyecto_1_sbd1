@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13AF6D37-3085-46EF-B195-83509B643F67" containerWithKeyObject="1F01E249-1595-79E9-5D99-7ADD8C3A07BA" localFKIndex="721469BB-7BDA-A5B7-4058-1EA4A1E5E3B5" name="BOLETO_PASAJERO_PASAJERO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>201002EC-E16C-82CA-159B-F76801713CBC</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>PASAJERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60CFFF9D-0A1C-FC63-F671-41FB9D1CB4AD</referredTableID>
+<keyObject>818E7173-C8F2-1547-309A-EA6DB0018DB9</keyObject>
+<referredKeyID>818E7173-C8F2-1547-309A-EA6DB0018DB9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>identificacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

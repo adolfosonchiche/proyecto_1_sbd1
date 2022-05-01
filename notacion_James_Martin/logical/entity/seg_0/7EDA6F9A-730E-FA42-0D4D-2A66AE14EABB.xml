@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7EDA6F9A-730E-FA42-0D4D-2A66AE14EABB" name="ALQUILA_PELICULA">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 06:51:44 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_compra" id="C544A33D-A65C-5387-2D49-702154C55417">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 06:51:44 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="18CA75B3-9A2C-841F-C1B7-50201B0F02EF">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 06:51:44 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelicula" id="031D6ACE-ABCA-0880-4A81-4D350AEE260B">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 06:53:06 UTC</createdTime>
+<generatorID>D092A1CF-33A8-7A4B-C9A9-38CA2AB14709</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>3CF644BF-2E56-5622-0984-923F4D3E8243</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_boleto" id="D8D77B04-E076-52CA-7082-0F24126A73B8">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 06:54:43 UTC</createdTime>
+<generatorID>2817B343-AC67-97A0-4F4A-B404EAF77983</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>E60182DF-6F91-13DD-31EF-EDE038166C40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7EB23CE-A661-75DB-B0D1-10020F55818C" name="COMPRA_ABORDO PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 06:51:44 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C544A33D-A65C-5387-2D49-702154C55417</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

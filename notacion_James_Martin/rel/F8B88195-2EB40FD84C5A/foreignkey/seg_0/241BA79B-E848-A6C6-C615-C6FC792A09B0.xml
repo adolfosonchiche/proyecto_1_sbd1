@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="241BA79B-E848-A6C6-C615-C6FC792A09B0" containerWithKeyObject="B9310A11-AF23-19A4-61FB-FC76519B270C" localFKIndex="68E2028B-10AA-C8AF-34A9-AC6A17C2EC38" name="AVION_DISTRIBUCION_ASIENTO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>269DEABF-8EA7-1960-3CCE-C54C9FB1B936</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>DISTRIBUCION_ASIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9EAC99EF-8A11-A8B8-FDA6-F839A4A65D3C</referredTableID>
+<keyObject>348C1359-C586-0F9A-CC97-2F8E797623B9</keyObject>
+<referredKeyID>348C1359-C586-0F9A-CC97-2F8E797623B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_distribucion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

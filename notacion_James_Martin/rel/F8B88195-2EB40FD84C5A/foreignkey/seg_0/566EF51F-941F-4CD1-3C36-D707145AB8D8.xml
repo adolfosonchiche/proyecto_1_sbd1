@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="566EF51F-941F-4CD1-3C36-D707145AB8D8" containerWithKeyObject="1F01E249-1595-79E9-5D99-7ADD8C3A07BA" localFKIndex="CE07ACDF-283F-18C5-3515-27D1E343875F" name="BOLETO_PASAJERO_COMPRA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>200F378E-7FC4-DC23-A364-AD98C11E0CEA</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>COMPRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6E1AA9E-CAFF-823A-1021-035AA1D12E3C</referredTableID>
+<keyObject>56654B61-A527-1FA2-99A6-42888AE517B7</keyObject>
+<referredKeyID>56654B61-A527-1FA2-99A6-42888AE517B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_compra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98529164-65D0-03B4-3922-1E109E3F7EF1" name="ALQUILA_PELICULA">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>7EDA6F9A-730E-FA42-0D4D-2A66AE14EABB</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_compra" id="3E671DF9-A8D2-F733-9293-17E6B95E910F">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>C544A33D-A65C-5387-2D49-702154C55417</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="41EE294A-22F7-7AC8-7E8B-BB39FC51B03D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>18CA75B3-9A2C-841F-C1B7-50201B0F02EF</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PELICULA_id_pelicula" id="0B41A189-0A30-D42D-5E47-EDAE3EB506CB">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>031D6ACE-ABCA-0880-4A81-4D350AEE260B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2E895B9-9376-863D-4D7B-4E3AA0DF2C7D" referredColumn="1161442D-A173-5F7C-5A14-F9168235EBC1"/>
+</associations>
+</Column>
+<Column name="BOLETO_PASAJERO_BOLETO_id_boleto" id="F256FED4-14E8-798C-064D-3406B7F6A224">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>D8D77B04-E076-52CA-7082-0F24126A73B8</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFA58874-8933-156E-A24C-F83A56A6ECB9" referredColumn="1FCFAADF-2010-3D3F-FD16-1EAEF5FBB1E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E7D5A6F-471D-6ADB-C027-CB654DDE8DE0" name="ALQUILA_PELICULA_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>A7EB23CE-A661-75DB-B0D1-10020F55818C</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E671DF9-A8D2-F733-9293-17E6B95E910F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4627C5CF-1C46-34F9-66D8-3CBE5889EF95" name="ALQUILA_PELICULA_PELICULA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>D092A1CF-33A8-7A4B-C9A9-38CA2AB14709</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B41A189-0A30-D42D-5E47-EDAE3EB506CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="808B130E-F6A3-17E5-71EC-F76EB4091B0F" name="ALQUILA_PELICULA_BOLETO_PASAJERO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>2817B343-AC67-97A0-4F4A-B404EAF77983</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F256FED4-14E8-798C-064D-3406B7F6A224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

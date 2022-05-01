@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DB1F4B9-B2BE-9938-5DEF-9B63D2C1DE82" name="COMPRA_WFI">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>CE753A06-346E-4196-A0D7-C6C6AD23BBEB</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_compra" id="5427FDDE-BFF4-9706-513C-871BC702E762">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>E5FBBAB1-CB84-9702-22D2-A1B7374937F7</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producto" id="0F19BBED-954B-16CF-B902-78DE098838F0">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>703C7116-FD61-0BCA-C481-4657CA0A9D29</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="0B09FFE3-92AA-3EE8-6008-CA557145C49F">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>AB87C087-F2EA-5A15-A240-7733B78CEDE3</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOLETO_PASAJERO_BOLETO_id_boleto" id="B4EF0B6E-7326-DAEA-B5DF-DEBE48BB3136">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>DFD722EE-DB6E-F36C-C975-98E534B12485</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="411F7049-7EE5-EF35-9E7F-EDFCD31AB368" referredColumn="1FCFAADF-2010-3D3F-FD16-1EAEF5FBB1E8"/>
+</associations>
+</Column>
+<Column name="WIFI_id_wifi" id="74FEDF7D-8A0A-B5AB-2D6B-6E43892238F8">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>D7390E66-8E6D-5820-E4FE-0772223A8A56</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFDB4126-4C44-C4E6-E910-983F5F64A0FA" referredColumn="FB4DCCFF-CE34-E8D0-30EA-A214A93A954A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E92B1D9-AE1F-4E68-FBB2-2782FAAFE94C" name="COMPRA_WFI_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>7B06CE3A-B555-2E19-7F64-9B89FAF8EF9F</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5427FDDE-BFF4-9706-513C-871BC702E762"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCD1F9EA-1788-4ADB-44E2-DC3573AD56B6" name="COMPRA_WFI_BOLETO_PASAJERO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>45E85A41-1741-4FCF-1781-1C51CF7B7083</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EF0B6E-7326-DAEA-B5DF-DEBE48BB3136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="089C137E-DD90-0505-8E36-0A58B1DB4A4F" name="COMPRA_WFI_WIFI_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>13B7AA05-CD63-6879-FC86-E74F1DB7731B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74FEDF7D-8A0A-B5AB-2D6B-6E43892238F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

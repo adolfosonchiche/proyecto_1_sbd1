@@ -15,20 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_vuelo" id="BA606360-690C-4EA7-57E7-7FB8DCBDA331">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 02:44:31 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_plan_vuelo" id="28C32301-A6E7-7476-5817-40973E49C503">
+<Attribute name="codigo_vuelo" id="28C32301-A6E7-7476-5817-40973E49C503">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 02:47:42 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
@@ -91,6 +78,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_plan_vuelo" id="F06AA5F6-7323-3C28-9C67-5CAC46440671">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 04:43:43 UTC</createdTime>
+<generatorID>05F636DF-B307-B5EA-6866-1B3E154B8618</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>01901F40-A01C-D5E6-96C7-BE450449D770</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="556CDFC8-9E11-CFBD-7823-9B98BCF7FD5D" name="VUELO PK">
@@ -102,7 +104,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BA606360-690C-4EA7-57E7-7FB8DCBDA331</attributeRef>
+<attributeRef>28C32301-A6E7-7476-5817-40973E49C503</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

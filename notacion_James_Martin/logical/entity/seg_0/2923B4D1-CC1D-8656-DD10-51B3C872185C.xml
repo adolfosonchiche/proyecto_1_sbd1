@@ -114,6 +114,20 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_distribucion" id="B10199EC-5393-FC66-B098-136B36735CDC">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 04:48:07 UTC</createdTime>
+<generatorID>269DEABF-8EA7-1960-3CCE-C54C9FB1B936</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>B878D025-DF7B-921B-7A06-9D5EC56638BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6EE487D8-5978-6BAB-BBB2-3C1D4E46803B" name="AVION PK">

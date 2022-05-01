@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="898DA65A-6771-AA00-D06E-EDFF0152D150" name="SUPERVISOR">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>EBBEEBE1-85D1-32A7-6AA6-46E7ADB0A493</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOLETO_PASAJERO_BOLETO_id_boleto" id="AC43EDFF-0E28-8E09-07A8-A20037AD6143">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>6C3D1776-CC1A-F55B-4B89-5E7148CEA017</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80548461-BD53-2178-D2AC-5B5AD1C07966" referredColumn="1FCFAADF-2010-3D3F-FD16-1EAEF5FBB1E8"/>
+</associations>
+</Column>
+<Column name="PERSONAL_ABORDO_id" id="1AAEC885-71CE-DF59-0D11-91911022861F">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>231A7AC6-58C1-5DE4-33AF-ED6D386DE992</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45B50610-42D7-AF41-3BBF-870E8F04F3A7" referredColumn="5678F2C5-5C0C-7645-C74F-6EF3A9BB1C87"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79879ED0-1E20-E4D6-148E-942335869260" name="SUPERVISOR_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>DBF4F0A5-DE30-A508-BBEB-CAF8D64A963B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AAEC885-71CE-DF59-0D11-91911022861F"/>
+<colUsage columnID="AC43EDFF-0E28-8E09-07A8-A20037AD6143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2272C84-BC5F-70F5-AAA6-80BE0FC14381" name="SUPERVISOR_BOLETO_PASAJERO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>7A33FBF5-6A8E-5EF9-9C40-FE5E60E7FADE</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC43EDFF-0E28-8E09-07A8-A20037AD6143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78EAD739-DAF3-28E0-9E81-ED8797F7C7AA" name="SUPERVISOR_PERSONAL_ABORDO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>27B1D48B-B745-9B6E-AF7F-AE9E3E1210DC</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AAEC885-71CE-DF59-0D11-91911022861F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

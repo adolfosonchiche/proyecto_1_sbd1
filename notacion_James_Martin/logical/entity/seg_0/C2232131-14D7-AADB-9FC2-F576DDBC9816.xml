@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="167D9DDD-ABF8-13B8-A57D-E7309FF7247E">
+<Attribute name="id_menu" id="167D9DDD-ABF8-13B8-A57D-E7309FF7247E">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 00:35:06 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
@@ -76,9 +76,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="existencia" id="75D8D336-DE32-5BBF-5C4E-9E094B28077C">
 <createdBy>hectoradolfo</createdBy>
@@ -102,9 +102,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="categoria" id="F877D58A-BC8E-2F90-B476-5754862DE0E5">
 <createdBy>hectoradolfo</createdBy>

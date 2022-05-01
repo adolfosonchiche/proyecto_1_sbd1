@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3BAD568-130C-CF2B-23A0-B850EF1C994E" containerWithKeyObject="8B26FE3F-2432-99C4-1040-9A53F00075C8" localFKIndex="1B496446-590C-4B0C-9E8A-523CEC4308A3" name="PAGO_MENU_COMPRA_MENU_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>A95DCB7D-5600-D9E2-9B98-123E80BAA112</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>COMPRA_MENU</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BCFA54E5-2BB8-37C8-F98E-D404ACA5BD64</referredTableID>
+<keyObject>F78582C5-2EB6-7203-A0E9-88BD0D1B7B6E</keyObject>
+<referredKeyID>F78582C5-2EB6-7203-A0E9-88BD0D1B7B6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_compra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

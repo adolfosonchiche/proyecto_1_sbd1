@@ -15,21 +15,38 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pago" id="6A235B34-3C20-8D44-461C-11F66946368D">
+<Attribute name="usuario" id="871CFE0D-184D-2362-94AC-3BE2D686EF50">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 18:01:16 UTC</createdTime>
+<createdTime>2022-04-27 05:52:56 UTC</createdTime>
+<generatorID>7DFB2B90-1775-0EF4-176F-6C95E90833A2</generatorID>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
+<referedAttribute>71F53ED4-ABDD-5914-3804-4261B03ADC5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pago" id="E44A5985-CBCE-8CCB-16F5-86D324145B66">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 05:57:01 UTC</createdTime>
+<generatorID>5CE940D1-3C8A-3573-CCAF-46D0E8536A5E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>73779119-C712-8A85-E719-138C02F88361</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="usuario" id="C97FCB74-186A-3EF2-77CB-EA8DE386D468">
+<Attribute name="descripcion" id="5CA150D6-D235-0CCC-12EC-EBFFA9E9F82E">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 18:01:31 UTC</createdTime>
+<createdTime>2022-04-27 06:01:29 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -38,8 +55,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -52,7 +69,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6A235B34-3C20-8D44-461C-11F66946368D</attributeRef>
+<attributeRef>871CFE0D-184D-2362-94AC-3BE2D686EF50</attributeRef>
+<attributeRef>E44A5985-CBCE-8CCB-16F5-86D324145B66</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

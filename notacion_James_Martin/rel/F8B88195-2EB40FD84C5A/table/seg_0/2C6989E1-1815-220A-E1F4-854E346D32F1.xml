@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C6989E1-1815-220A-E1F4-854E346D32F1" name="DIA_VUELO">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>1A331825-4577-527A-8932-30324C162CD1</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAN_VUELO_id_plan_vuelo" id="7C9A1AFF-9CAD-F385-DAEE-4F836994279D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>3DA42FB9-BA9B-F5C2-1637-BE9E488B798D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1A93E18-4A5B-3001-3B64-35D4DF9E8A3A" referredColumn="EB6BB6D3-F437-E496-D5D3-DC064ABB2E9F"/>
+</associations>
+</Column>
+<Column name="DIA_id" id="4BF4A8D5-2327-85E8-E852-A49A5B03CD32">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>3BBF7873-5E8D-53E4-E373-97290E46C9CF</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A631A724-841B-A48D-3DE3-B3A818E4B824" referredColumn="23F86A09-9141-91B1-C6C9-754EFAB5C7C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34814825-1243-3493-DC28-22EC2833B2E4" name="DIA_VUELO_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>06668993-FF0D-752F-310B-947A40F0B15F</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C9A1AFF-9CAD-F385-DAEE-4F836994279D"/>
+<colUsage columnID="4BF4A8D5-2327-85E8-E852-A49A5B03CD32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA43FFB-5E13-4F78-927A-2FD93242F38B" name="DIA_VUELO_PLAN_VUELO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>CDE30144-C7A3-2E07-3088-6FD835A6BE64</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C9A1AFF-9CAD-F385-DAEE-4F836994279D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A309D22-1B75-0D7E-3CF3-0316E3C7B535" name="DIA_VUELO_DIA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>CAD822F1-1661-1ED2-FE5C-6B22C713BFA6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF4A8D5-2327-85E8-E852-A49A5B03CD32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

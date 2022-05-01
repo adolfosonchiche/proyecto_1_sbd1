@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="622F7FFF-61C8-5F0C-6BAD-B66545B12327" name="PAGO_COMPRADOR">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>9CCBC181-BBE0-ED99-4465-A87118A5DB74</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="descripcion" id="5F45E012-C93B-EC31-E86F-6B3BB321B5CD">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>73603FBB-009A-6C5B-8F0E-E925FD28F900</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODO_PAGO_id_pago" id="4BC0C0AA-87EE-D56E-0FF8-693032BC2057">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>32E7FF02-E97F-E89B-0071-F2A1B0D5F7F0</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DB2DEFC-1068-55B1-F7C8-BAAA71905F08" referredColumn="FC3B02D7-F54F-1485-58EA-9432C681A335"/>
+</associations>
+</Column>
+<Column name="COMPRA_codigo_compra" id="AC5E90FC-F7B6-5CF6-5C74-D938A2C57C2B">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>8BD1FF4C-D177-B887-042F-3A2B290C168B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29AC5AAF-E16A-74B4-B1C9-9A9526ACB0ED" referredColumn="0179007D-AC06-EFE0-44BE-C7AAC98F49DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81AEE850-98E4-0B92-B568-AA63D067EA13" name="PAGO_COMPRADOR_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>FB3D0C9C-A1BF-F342-C9C1-F7210ED1493E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BC0C0AA-87EE-D56E-0FF8-693032BC2057"/>
+<colUsage columnID="AC5E90FC-F7B6-5CF6-5C74-D938A2C57C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93596FEE-F975-F1C2-A748-7D2030B0A57C" name="PAGO_COMPRADOR_COMPRA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>D69D8142-F135-71A8-1FE3-68CA627ECBEA</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC5E90FC-F7B6-5CF6-5C74-D938A2C57C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A796E82C-012D-A42E-0F8B-6CE99ACA00BB" name="PAGO_COMPRADOR_METODO_PAGO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>1FE891EA-D708-F7CA-9AB8-B7ACE2D36190</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BC0C0AA-87EE-D56E-0FF8-693032BC2057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

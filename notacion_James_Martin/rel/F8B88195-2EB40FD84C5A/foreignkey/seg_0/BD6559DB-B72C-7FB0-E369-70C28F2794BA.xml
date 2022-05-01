@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD6559DB-B72C-7FB0-E369-70C28F2794BA" containerWithKeyObject="1F01E249-1595-79E9-5D99-7ADD8C3A07BA" localFKIndex="38C95E44-641A-9EA3-0014-EA01E45CC60F" name="BOLETO_PASAJERO_ENCUESTA_SERVICIO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>C6CF4CB7-2A46-BB1F-328F-A1438E40BBE3</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>ENCUESTA_SERVICIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68B2B009-98DF-42D6-8477-AD7628481DA2</referredTableID>
+<keyObject>9BBDD5ED-C4F7-7E9C-200F-F768B411A4B1</keyObject>
+<referredKeyID>9BBDD5ED-C4F7-7E9C-200F-F768B411A4B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_encuesta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

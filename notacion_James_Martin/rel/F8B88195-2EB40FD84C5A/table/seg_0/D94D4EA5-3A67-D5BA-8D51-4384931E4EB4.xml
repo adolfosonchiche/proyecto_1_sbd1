@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D94D4EA5-3A67-D5BA-8D51-4384931E4EB4" name="LISTA_INGREDIENTE">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>99EF3805-C7F7-713F-3546-9E0F10BDC622</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ingrediente" id="79571B15-2AAF-D358-D13A-E307003A6301">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>7BD4CCF5-ECDA-4893-8F1F-6520AC0912B0</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="5BCCC27F-B495-65DA-2922-EF87ED32DF8F">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>30D2BB63-E46C-9892-E230-8C4FCA2C3138</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_id_menu" id="CEBC1CD1-9788-D4C9-8D68-B40AEDAC14F1">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>5666A1B1-EB74-FC2E-ED96-E5A52B46C0C0</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A5D11AF-3CC5-9FBF-3814-57BBA6F53EF3" referredColumn="58465B0F-F981-ABEC-2334-28AB72FF9484"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C95B25E3-6003-8A94-D104-7B7C3DC4F90A" name="LISTA_INGREDIENTE_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>7C1C3330-4CD2-52CA-FBD8-5DAD82AE20F6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79571B15-2AAF-D358-D13A-E307003A6301"/>
+<colUsage columnID="CEBC1CD1-9788-D4C9-8D68-B40AEDAC14F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="304CF0F1-038B-3CC4-4D95-6DC28CDF01D3" name="LISTA_INGREDIENTE_MENU_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>92284384-7DB5-5D06-0FB3-9F46937FB16B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEBC1CD1-9788-D4C9-8D68-B40AEDAC14F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

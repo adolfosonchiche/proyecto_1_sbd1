@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="3CF644BF-2E56-5622-0984-923F4D3E8243">
+<Attribute name="id_pelicula" id="3CF644BF-2E56-5622-0984-923F4D3E8243">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 19:50:43 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
@@ -102,9 +102,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="duracion" id="DFE06939-7ED5-BB0E-8220-D59A8B8F2E5D">
 <createdBy>hectoradolfo</createdBy>
@@ -117,6 +117,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="0127500C-D150-1EFE-04F1-98985DBCFCCC">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 05:17:28 UTC</createdTime>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

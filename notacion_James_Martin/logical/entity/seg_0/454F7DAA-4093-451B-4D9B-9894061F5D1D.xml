@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6FA0529-C551-F7D7-ACC1-BB95E56404D9" name="PRECIO_CLASE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="454F7DAA-4093-451B-4D9B-9894061F5D1D" name="COMPRA_MENU">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:11:14 UTC</createdTime>
+<createdTime>2022-04-30 06:51:48 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="6BF863AF-2508-218A-E708-D21A39C0DCAD">
+<Attribute name="id_compra" id="24D8C766-4A90-4A2E-CC46-36C91187720F">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:11:47 UTC</createdTime>
+<createdTime>2022-04-30 06:51:48 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -27,22 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_clase" id="14E80176-C7E6-ECDE-A5A5-A3FFF6428CC9">
+<Attribute name="precio" id="A101AAF8-CAAF-9A62-8F3A-377CC6328513">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:12:24 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="precio" id="939E882B-B66E-0751-4EE9-96919502AF51">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:12:45 UTC</createdTime>
+<createdTime>2022-04-30 06:51:48 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -50,22 +37,51 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_boleto" id="57F90543-6786-7397-EC18-A5F238C3B771">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:04:44 UTC</createdTime>
+<generatorID>E276A5C0-9AC4-CDE4-8ACE-1F286C6D8B22</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>E60182DF-6F91-13DD-31EF-EDE038166C40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_menu" id="8D5E75FC-A5D1-A7C0-EAF8-88EB585AEE3D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:04:56 UTC</createdTime>
+<generatorID>5F9AA8D2-DF74-6932-F2E0-248418580343</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>167D9DDD-ABF8-13B8-A57D-E7309FF7247E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6F728C58-4D80-5341-1E02-F32832808549" name="PRECIO_CLASE PK">
+<identifier id="244BC325-87A3-579A-CC0A-B77E7D96985C" name="COMPRA_ABORDO PK">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:12:22 UTC</createdTime>
+<createdTime>2022-04-30 06:51:48 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6BF863AF-2508-218A-E708-D21A39C0DCAD</attributeRef>
+<attributeRef>24D8C766-4A90-4A2E-CC46-36C91187720F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

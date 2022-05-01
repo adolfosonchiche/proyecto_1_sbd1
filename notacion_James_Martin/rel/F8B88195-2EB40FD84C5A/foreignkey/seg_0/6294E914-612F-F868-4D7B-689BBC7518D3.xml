@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6294E914-612F-F868-4D7B-689BBC7518D3" containerWithKeyObject="E930DBD1-6856-BE6D-9858-76130AFF8EE2" localFKIndex="CA03B700-FF76-5255-C805-71933049384F" name="CLASE_BOLETO_BOLETO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>FE2A6B43-F25C-1FA6-2D03-E60D233D96D4</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>BOLETO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E49C4F5-E7EB-5C92-6BB1-A235EB8E0488</referredTableID>
+<keyObject>55EDD9E6-F8D5-C348-790D-8BFFDC7694A3</keyObject>
+<referredKeyID>55EDD9E6-F8D5-C348-790D-8BFFDC7694A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_boleto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

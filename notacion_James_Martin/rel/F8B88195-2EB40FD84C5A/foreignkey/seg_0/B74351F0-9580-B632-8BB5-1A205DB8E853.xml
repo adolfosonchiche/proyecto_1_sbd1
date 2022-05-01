@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B74351F0-9580-B632-8BB5-1A205DB8E853" containerWithKeyObject="A158EAA5-DE3A-7E02-C5AF-7727A083EA00" localFKIndex="A5351863-AB42-2E97-F3CD-F3C631F65983" name="PAGO_WIFI_COMPRA_WFI_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>C6A76B1E-3135-2392-1FB4-65B56EE724A3</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>COMPRA_WFI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2DB1F4B9-B2BE-9938-5DEF-9B63D2C1DE82</referredTableID>
+<keyObject>5E92B1D9-AE1F-4E68-FBB2-2782FAAFE94C</keyObject>
+<referredKeyID>5E92B1D9-AE1F-4E68-FBB2-2782FAAFE94C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_compra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -15,22 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="pasajero" id="7B36EF30-B8D8-2F5D-53C2-334300A83425">
+<Attribute name="id_encuesta" id="7B36EF30-B8D8-2F5D-53C2-334300A83425">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 18:56:26 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="boleto" id="2AA0B94C-32C7-1C11-7B77-E2FB38FFBE5F">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 18:56:45 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
@@ -102,7 +89,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7B36EF30-B8D8-2F5D-53C2-334300A83425</attributeRef>
-<attributeRef>2AA0B94C-32C7-1C11-7B77-E2FB38FFBE5F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

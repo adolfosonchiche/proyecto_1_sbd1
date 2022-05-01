@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59EB8800-2C16-7849-189D-7A80E2488AB1" containerWithKeyObject="7FD2B33D-86D1-D031-86EE-249C7F48ACAA" localFKIndex="E733A181-AD4F-994C-7869-6DD0767D4AA3" name="MALETA_HISTORIAL_MALETA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>EBA1276F-05B9-92B1-706B-6176A13514AB</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>MALETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>635BCB94-6FCA-76A6-8AAE-BF867597D5EB</referredTableID>
+<keyObject>1FE38EDB-B4E6-1AA7-D194-44AA4F54FCA1</keyObject>
+<referredKeyID>1FE38EDB-B4E6-1AA7-D194-44AA4F54FCA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B540535B-7230-7726-3E84-DB9DC255736A" name="PAGO_USUARIO">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>D1324A7F-3B0B-E7A2-B609-850A1AE7E97C</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_usuario" id="A2EFB427-5541-89D4-5501-00757A67ED07">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>871CFE0D-184D-2362-94AC-3BE2D686EF50</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AF03E64-CABC-67E8-BFFE-71BEC55DFEA1" referredColumn="76C0F4F0-BE2C-DF89-A775-B95A2669F252"/>
+</associations>
+</Column>
+<Column name="METODO_PAGO_id_pago" id="303024E9-CFBF-42EB-4BC7-4A29E4424813">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>E44A5985-CBCE-8CCB-16F5-86D324145B66</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2B9487A-E2E3-02B2-AD94-9DB05F169C25" referredColumn="FC3B02D7-F54F-1485-58EA-9432C681A335"/>
+</associations>
+</Column>
+<Column name="descripcion" id="78521D95-9064-FDEF-1EAD-90AC5FA4A1E5">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>5CA150D6-D235-0CCC-12EC-EBFFA9E9F82E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C6EE1FB-91A5-1B7E-938D-0AFEA3A51F08" name="PAGO_USUARIO_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>49915F69-CE40-5016-0BEC-096052B5063A</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2EFB427-5541-89D4-5501-00757A67ED07"/>
+<colUsage columnID="303024E9-CFBF-42EB-4BC7-4A29E4424813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11E9710C-3FFA-3036-94E8-EEAA70438C16" name="PAGO_USUARIO_USUARIO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>7DFB2B90-1775-0EF4-176F-6C95E90833A2</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2EFB427-5541-89D4-5501-00757A67ED07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E1023EA-33D7-4136-3231-286B1B6440F8" name="PAGO_USUARIO_METODO_PAGO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>5CE940D1-3C8A-3573-CCAF-46D0E8536A5E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="303024E9-CFBF-42EB-4BC7-4A29E4424813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

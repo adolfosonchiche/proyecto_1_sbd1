@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94B38487-1093-AAE4-5D9C-F24D833A15DA" name="PAGO_PASAJERO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94B38487-1093-AAE4-5D9C-F24D833A15DA" name="PAGO_WIFI">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 04:25:45 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
@@ -15,31 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_boleto" id="F8C739F3-BD6E-F2EC-03BA-20A7F1ABADCB">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:25:57 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_pago" id="EAEF58D0-5E5E-DAFF-36F7-6202A98D632A">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:26:28 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="descripcion" id="DB1961D8-87AC-E8D4-81A9-D0EA69199EA1">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 04:28:15 UTC</createdTime>
@@ -54,6 +29,34 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_pago" id="24524C55-58B2-26B0-B256-15D5C990C588">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 06:01:06 UTC</createdTime>
+<generatorID>4A98D094-9B3E-8B27-EE0E-B5D5D7BA70CF</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>73779119-C712-8A85-E719-138C02F88361</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_compra" id="1A517EC7-FF99-0478-12D5-2CB98C302333">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 21:50:42 UTC</createdTime>
+<generatorID>C6A76B1E-3135-2392-1FB4-65B56EE724A3</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>E5FBBAB1-CB84-9702-22D2-A1B7374937F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B4ADBA92-94F2-B23B-FEC7-596640ABF3FD" name="PAGO_PASAJERO PK">
@@ -65,8 +68,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>EAEF58D0-5E5E-DAFF-36F7-6202A98D632A</attributeRef>
-<attributeRef>F8C739F3-BD6E-F2EC-03BA-20A7F1ABADCB</attributeRef>
+<attributeRef>24524C55-58B2-26B0-B256-15D5C990C588</attributeRef>
+<attributeRef>1A517EC7-FF99-0478-12D5-2CB98C302333</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

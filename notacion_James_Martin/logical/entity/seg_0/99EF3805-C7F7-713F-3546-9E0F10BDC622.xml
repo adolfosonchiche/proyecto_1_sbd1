@@ -15,18 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_menu" id="7AD23470-C80A-721B-C4C4-C34318B127EE">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 00:43:39 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ingrediente" id="7BD4CCF5-ECDA-4893-8F1F-6520AC0912B0">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 00:44:14 UTC</createdTime>
@@ -52,6 +40,20 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_menu" id="5666A1B1-EB74-FC2E-ED96-E5A52B46C0C0">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 00:53:27 UTC</createdTime>
+<generatorID>92284384-7DB5-5D06-0FB3-9F46937FB16B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>167D9DDD-ABF8-13B8-A57D-E7309FF7247E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7C1C3330-4CD2-52CA-FBD8-5DAD82AE20F6" name="LISTA_INGREDIENTE PK">
@@ -63,8 +65,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7AD23470-C80A-721B-C4C4-C34318B127EE</attributeRef>
 <attributeRef>7BD4CCF5-ECDA-4893-8F1F-6520AC0912B0</attributeRef>
+<attributeRef>5666A1B1-EB74-FC2E-ED96-E5A52B46C0C0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

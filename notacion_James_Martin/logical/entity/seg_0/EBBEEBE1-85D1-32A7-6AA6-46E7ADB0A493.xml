@@ -15,44 +15,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="empleado_abordo" id="42734E26-C578-5743-D93D-D6200D10E5E0">
+<Attribute name="id_boleto" id="6C3D1776-CC1A-F55B-4B89-5E7148CEA017">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 02:24:23 UTC</createdTime>
+<createdTime>2022-04-28 04:35:24 UTC</createdTime>
+<generatorID>7A33FBF5-6A8E-5EF9-9C40-FE5E60E7FADE</generatorID>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
+<referedAttribute>E60182DF-6F91-13DD-31EF-EDE038166C40</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_vuelo" id="85D500FD-9CD1-2406-5367-03A3911F19FC">
+<Attribute name="id" id="231A7AC6-58C1-5DE4-33AF-ED6D386DE992">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 02:33:28 UTC</createdTime>
+<createdTime>2022-04-28 05:05:05 UTC</createdTime>
+<generatorID>27B1D48B-B745-9B6E-AF7F-AE9E3E1210DC</generatorID>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
+<referedAttribute>E92C89BF-9303-8BD0-B950-1EEDAB4BC8C1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_pasajero" id="884E5A35-86AE-158B-7D25-D4476D3D9D91">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 02:33:55 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -65,8 +55,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>42734E26-C578-5743-D93D-D6200D10E5E0</attributeRef>
-<attributeRef>85D500FD-9CD1-2406-5367-03A3911F19FC</attributeRef>
+<attributeRef>231A7AC6-58C1-5DE4-33AF-ED6D386DE992</attributeRef>
+<attributeRef>6C3D1776-CC1A-F55B-4B89-5E7148CEA017</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

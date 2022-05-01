@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24C1A792-448B-4B2E-5B99-BDF47E1CD5C6" containerWithKeyObject="B6E1AA9E-CAFF-823A-1021-035AA1D12E3C" localFKIndex="E99C2EBF-38B0-0892-DBD8-502A4F697D83" name="COMPRA_COMPRADOR_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>A55430F7-5C26-50F5-A048-C171EFE67865</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<referredTableLongName>COMPRADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F26F52ED-D185-E755-6CF5-48830A000061</referredTableID>
+<keyObject>03989628-4E7A-636F-5EB0-8EF97B0EC63E</keyObject>
+<referredKeyID>03989628-4E7A-636F-5EB0-8EF97B0EC63E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>identificacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

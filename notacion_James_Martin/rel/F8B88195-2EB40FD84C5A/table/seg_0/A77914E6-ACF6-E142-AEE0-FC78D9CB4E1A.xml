@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A77914E6-ACF6-E142-AEE0-FC78D9CB4E1A" name="LISTA_VACUNA">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>625DD814-6C76-7825-6704-20FB1A5E7AA6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vacuna" id="93FFC8B0-EC7E-71FB-C8B3-05F1F227751A">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>8A6FB391-34AB-DC9A-A1AE-6E06F4116D97</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MASCOTA_certificado_veterinario" id="E76D0264-2C95-6B14-1B0B-34F381277124">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>2557E10C-DA44-3BB8-C55C-7D006FD0AFAF</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B2EE7A3-C8A8-4C8F-ED8F-AA0226093EA6" referredColumn="CC2D1E02-4A03-DEC8-2AC0-5E1620B040B7"/>
+</associations>
+</Column>
+<Column name="MASCOTA_nombre" id="361BA243-57D4-1988-9456-B5BAFEC1CEC2">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>0B455ADB-6372-0165-8465-53517A66D94B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B2EE7A3-C8A8-4C8F-ED8F-AA0226093EA6" referredColumn="C1F8A7D4-F463-0289-A12D-A2FECC7080BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7289480E-DD66-D371-9052-478745FA01F8" name="LISTA_VACUNA_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>2BF4EE7D-0278-FC91-8761-B25E23BBE09E</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="361BA243-57D4-1988-9456-B5BAFEC1CEC2"/>
+<colUsage columnID="E76D0264-2C95-6B14-1B0B-34F381277124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C39570A-8FFA-7375-FA17-E6F638669AEC" name="LISTA_VACUNA_MASCOTA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>0E58B902-406B-7D23-C3E0-09F68EC4D1B6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76D0264-2C95-6B14-1B0B-34F381277124"/>
+<colUsage columnID="361BA243-57D4-1988-9456-B5BAFEC1CEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

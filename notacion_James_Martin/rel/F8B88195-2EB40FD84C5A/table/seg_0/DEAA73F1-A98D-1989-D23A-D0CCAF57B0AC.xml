@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEAA73F1-A98D-1989-D23A-D0CCAF57B0AC" name="PAGO_PELICULA">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>419ABE9B-4B3B-FDD5-C4C6-51FF6DC71F67</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="descripcion" id="C8067FAA-693D-D17D-E94E-08DAF626287A">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>BC42F0A9-EB84-010F-B043-C3D298063F8D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODO_PAGO_id_pago" id="C21B0B14-DD80-F670-0E01-45B7672E34F5">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>F6407FA8-E68B-561A-BEFB-5F8B57217D23</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89539658-3075-3D73-C5C5-ACA151D9B973" referredColumn="FC3B02D7-F54F-1485-58EA-9432C681A335"/>
+</associations>
+</Column>
+<Column name="ALQUILA_PELICULA_id_compra" id="0B74599E-27B2-39B3-018E-1AA8C740C371">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>2BCEAEFB-6F5C-8E55-8379-62778A45F8EC</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="847AC302-62F7-8C3F-68AB-D7D449BC388C" referredColumn="3E671DF9-A8D2-F733-9293-17E6B95E910F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB58B5E1-6626-C19D-982A-BCB4D6F421D9" name="PAGO_PELICULA_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>FC0E2FE1-235C-F6CF-C7FA-DE3AD2F25C04</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C21B0B14-DD80-F670-0E01-45B7672E34F5"/>
+<colUsage columnID="0B74599E-27B2-39B3-018E-1AA8C740C371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6003DCF3-30C9-5E92-49D8-BFF0005660FD" name="PAGO_PELICULA_METODO_PAGO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>1111909E-D32A-B62F-257C-DEA5A8DAF282</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C21B0B14-DD80-F670-0E01-45B7672E34F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="514D0E32-91FA-0F48-F0C1-F1CF16E966AB" name="PAGO_PELICULA_ALQUILA_PELICULA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>445AFCAB-9B65-969D-9D71-F0F69320EF21</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B74599E-27B2-39B3-018E-1AA8C740C371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

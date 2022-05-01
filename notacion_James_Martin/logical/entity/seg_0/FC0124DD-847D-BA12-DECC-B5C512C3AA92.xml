@@ -15,18 +15,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_avion" id="D63370F4-076F-E1A6-D862-6AB1232A84ED">
+<Attribute name="id_distribucion" id="B878D025-DF7B-921B-7A06-9D5EC56638BB">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 19:40:31 UTC</createdTime>
+<createdTime>2022-04-28 04:47:26 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="total_asiento" id="BB04ECBC-62C0-329A-D4D2-3D32D26BF661">
 <createdBy>hectoradolfo</createdBy>
@@ -90,7 +89,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D63370F4-076F-E1A6-D862-6AB1232A84ED</attributeRef>
+<attributeRef>B878D025-DF7B-921B-7A06-9D5EC56638BB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

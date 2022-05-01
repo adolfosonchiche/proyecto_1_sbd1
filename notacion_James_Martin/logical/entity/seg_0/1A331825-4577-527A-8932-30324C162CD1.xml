@@ -15,30 +15,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_dia" id="E20E9E45-B9DF-E258-6746-F157B1A3D1A1">
+<Attribute name="id_plan_vuelo" id="3DA42FB9-BA9B-F5C2-1637-BE9E488B798D">
 <createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 19:29:58 UTC</createdTime>
+<createdTime>2022-04-28 04:38:57 UTC</createdTime>
+<generatorID>CDE30144-C7A3-2E07-3088-6FD835A6BE64</generatorID>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
 <engineerTo>
 <item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="plan_vuelo" id="BA556B64-8330-E010-83A7-A41188E4EEE2">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-26 19:30:12 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
+<referedAttribute>01901F40-A01C-D5E6-96C7-BE450449D770</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="3BBF7873-5E8D-53E4-E373-97290E46C9CF">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 04:39:52 UTC</createdTime>
+<generatorID>CAD822F1-1661-1ED2-FE5C-6B22C713BFA6</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>8A8C55A6-DEFC-10FE-FB23-0F5400AF52EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -51,8 +55,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E20E9E45-B9DF-E258-6746-F157B1A3D1A1</attributeRef>
-<attributeRef>BA556B64-8330-E010-83A7-A41188E4EEE2</attributeRef>
+<attributeRef>3DA42FB9-BA9B-F5C2-1637-BE9E488B798D</attributeRef>
+<attributeRef>3BBF7873-5E8D-53E4-E373-97290E46C9CF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCFA54E5-2BB8-37C8-F98E-D404ACA5BD64" name="COMPRA_MENU">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>454F7DAA-4093-451B-4D9B-9894061F5D1D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_compra" id="1E3606FF-1AF6-A78E-E2AD-F0266F44A6E4">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>24D8C766-4A90-4A2E-CC46-36C91187720F</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="F6CEB764-A20D-5968-F835-4F67058101E3">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>A101AAF8-CAAF-9A62-8F3A-377CC6328513</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOLETO_PASAJERO_BOLETO_id_boleto" id="24823F91-DF91-E912-3D93-058D4AD2F585">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>57F90543-6786-7397-EC18-A5F238C3B771</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06D9CD3B-EA6C-6CF8-A0BC-8188C2330D1C" referredColumn="1FCFAADF-2010-3D3F-FD16-1EAEF5FBB1E8"/>
+</associations>
+</Column>
+<Column name="MENU_id_menu" id="1AAFE902-0C6A-E6CA-6117-E7960DAE9CF3">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>8D5E75FC-A5D1-A7C0-EAF8-88EB585AEE3D</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AB1A0C9-0D0C-1015-84A6-C867370FB326" referredColumn="58465B0F-F981-ABEC-2334-28AB72FF9484"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F78582C5-2EB6-7203-A0E9-88BD0D1B7B6E" name="COMPRA_MENU_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>244BC325-87A3-579A-CC0A-B77E7D96985C</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E3606FF-1AF6-A78E-E2AD-F0266F44A6E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95F90367-1963-8D7F-C16C-9755E9738EBD" name="COMPRA_MENU_BOLETO_PASAJERO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>E276A5C0-9AC4-CDE4-8ACE-1F286C6D8B22</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24823F91-DF91-E912-3D93-058D4AD2F585"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0261382E-DE3C-81F5-6568-6D74F7D4193D" name="COMPRA_MENU_MENU_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:31:08 UTC</createdTime>
+<generatorID>5F9AA8D2-DF74-6932-F2E0-248418580343</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AAFE902-0C6A-E6CA-6117-E7960DAE9CF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

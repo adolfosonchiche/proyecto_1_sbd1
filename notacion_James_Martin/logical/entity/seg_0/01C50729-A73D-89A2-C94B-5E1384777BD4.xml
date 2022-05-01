@@ -27,19 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_vuelo" id="84D5B5AF-F17B-5637-3AB5-D4982546FCB8">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 02:55:41 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="estado" id="A3D6DF84-1A98-C875-67FB-563C80523518">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 02:56:35 UTC</createdTime>
@@ -65,6 +52,21 @@
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="codigo_vuelo" id="C12EEB5D-D05E-EA5A-D6AE-A7CDDA9E62C3">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 04:48:51 UTC</createdTime>
+<generatorID>BD94EF59-B834-B172-07C5-19B198EBDA44</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>28C32301-A6E7-7476-5817-40973E49C503</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2417F07E-DA11-883B-F761-643C718F7F86" name="CONTROL_VUELO PK">
@@ -77,7 +79,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>851A2813-474C-CBF6-A0D4-7E2DD23A6E8F</attributeRef>
-<attributeRef>84D5B5AF-F17B-5637-3AB5-D4982546FCB8</attributeRef>
+<attributeRef>C12EEB5D-D05E-EA5A-D6AE-A7CDDA9E62C3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

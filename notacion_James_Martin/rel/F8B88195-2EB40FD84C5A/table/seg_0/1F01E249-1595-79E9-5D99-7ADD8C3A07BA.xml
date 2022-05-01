@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F01E249-1595-79E9-5D99-7ADD8C3A07BA" name="BOLETO_PASAJERO">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>04EC3487-342A-6E65-0209-6E3C654072DE</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOLETO_id_boleto" id="1FCFAADF-2010-3D3F-FD16-1EAEF5FBB1E8">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>E60182DF-6F91-13DD-31EF-EDE038166C40</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9698ECD6-90FE-B355-BE8B-2C71F904EC85" referredColumn="7D35EEEB-E741-0025-C13E-6DB69F859F38"/>
+</associations>
+</Column>
+<Column name="PASAJERO_identificacion" id="B4520B70-3756-7BDF-2ACC-8120E5A088B0">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>30F3FE66-63C7-0684-1701-19609F67E502</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13AF6D37-3085-46EF-B195-83509B643F67" referredColumn="AC980B91-2898-977D-0070-07A934D342A2"/>
+</associations>
+</Column>
+<Column name="ENCUESTA_SERVICIO_id_encuesta" id="3993E403-207E-5100-6A5D-3ECD67534226">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>DD754724-D47F-02AA-3DBE-A04E18E935A9</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD6559DB-B72C-7FB0-E369-70C28F2794BA" referredColumn="CD8F08E0-98E5-ACCE-FF18-269A07DC0C5D"/>
+</associations>
+</Column>
+<Column name="COMPRA_codigo_compra" id="DB5F3F8C-1D4D-AC37-6FAE-E90207E2F7D3">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>D9C2406F-6EC4-F1DF-F74D-7DB02A6DE91F</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="566EF51F-941F-4CD1-3C36-D707145AB8D8" referredColumn="0179007D-AC06-EFE0-44BE-C7AAC98F49DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C41F4336-856D-8560-2CFB-DB526B5F2016" name="BOLETO_PASAJERO_PK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>64421706-3DE8-3270-7987-026F5B18945F</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FCFAADF-2010-3D3F-FD16-1EAEF5FBB1E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B1FE7FE-2296-C54E-64AC-F5DFDC2F24FC" name="BOLETO_PASAJERO_BOLETO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>EA550342-63D8-6D8E-D408-90BABE729FD7</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FCFAADF-2010-3D3F-FD16-1EAEF5FBB1E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="721469BB-7BDA-A5B7-4058-1EA4A1E5E3B5" name="BOLETO_PASAJERO_PASAJERO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>201002EC-E16C-82CA-159B-F76801713CBC</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4520B70-3756-7BDF-2ACC-8120E5A088B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38C95E44-641A-9EA3-0014-EA01E45CC60F" name="BOLETO_PASAJERO_ENCUESTA_SERVICIO_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>C6CF4CB7-2A46-BB1F-328F-A1438E40BBE3</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3993E403-207E-5100-6A5D-3ECD67534226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE07ACDF-283F-18C5-3515-27D1E343875F" name="BOLETO_PASAJERO_COMPRA_FK">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-29 03:26:24 UTC</createdTime>
+<generatorID>200F378E-7FC4-DC23-A364-AD98C11E0CEA</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB5F3F8C-1D4D-AC37-6FAE-E90207E2F7D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

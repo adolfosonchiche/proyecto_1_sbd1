@@ -108,6 +108,21 @@
 <dataTypeSize>25</dataTypeSize>
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_boleto" id="DF587CF1-DC22-C7F7-7C7B-70C5D776110A">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-27 23:25:39 UTC</createdTime>
+<generatorID>AE6180FF-6FA3-239B-F820-885776FD2573</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>E60182DF-6F91-13DD-31EF-EDE038166C40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D6A73C07-5FA5-5299-5066-21B7CF216FBA" name="MASCOTA PK">

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="4B42626A-3B75-580E-6379-4B949EEF320B">
+<Attribute name="id_maleta" id="4B42626A-3B75-580E-6379-4B949EEF320B">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 19:57:07 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
@@ -76,9 +76,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="categoria" id="E79668AD-536B-74C9-65D1-83D982117554">
 <createdBy>hectoradolfo</createdBy>
@@ -99,8 +99,9 @@
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-26 19:57:46 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

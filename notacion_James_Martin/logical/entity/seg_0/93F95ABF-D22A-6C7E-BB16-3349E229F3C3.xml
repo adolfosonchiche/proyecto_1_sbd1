@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="1CE48847-E1E5-82CB-3388-B514C3A3BB2A">
+<Attribute name="id_wifi" id="1CE48847-E1E5-82CB-3388-B514C3A3BB2A">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 00:25:08 UTC</createdTime>
 <ownerDesignName>notacion_James_Martin</ownerDesignName>
@@ -63,9 +63,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

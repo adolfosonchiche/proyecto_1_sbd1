@@ -15,32 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_boleto" id="C6F477F1-B475-D665-1C5F-FCF61D9B096B">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:14:28 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_clase" id="E7460D5F-26FF-C432-2384-032C377FCA84">
-<createdBy>hectoradolfo</createdBy>
-<createdTime>2022-04-27 04:14:46 UTC</createdTime>
-<ownerDesignName>notacion_James_Martin</ownerDesignName>
-<engineerTo>
-<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="es_nino" id="1DB65F4D-E793-B8C0-6284-70ABD844813D">
 <createdBy>hectoradolfo</createdBy>
 <createdTime>2022-04-27 04:18:12 UTC</createdTime>
@@ -54,6 +28,51 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="clase" id="BE1E35D6-F8C3-F2F1-2DCD-F478C73D4CC8">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 00:41:15 UTC</createdTime>
+<generatorID>F5D4DDF4-9885-0826-1207-399ADA94FA7B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>FAC059D3-206F-690C-7098-5C40653114EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_boleto" id="A9C08AFD-0EBF-0798-96E1-467342687C2D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-28 00:42:31 UTC</createdTime>
+<generatorID>FE2A6B43-F25C-1FA6-2D03-E60D233D96D4</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>0E7D0F8F-1E59-0A01-2810-0C5E5C1F6A8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_precio" id="AD6B4755-17E9-E90B-3728-EFC5CD93B66D">
+<createdBy>hectoradolfo</createdBy>
+<createdTime>2022-04-30 07:12:32 UTC</createdTime>
+<generatorID>F5D4DDF4-9885-0826-1207-399ADA94FA7B</generatorID>
+<ownerDesignName>notacion_James_Martin</ownerDesignName>
+<engineerTo>
+<item key="F8B88195-903B-514E-4907-2EB40FD84C5A" value="true"/>
+</engineerTo>
+<referedAttribute>831AEE36-C368-CA35-6E30-58EF01D3FD7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="13D25756-30ED-6825-BAD7-93F355FAF457" name="CLASE_BOLETO PK">
@@ -65,8 +84,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C6F477F1-B475-D665-1C5F-FCF61D9B096B</attributeRef>
-<attributeRef>E7460D5F-26FF-C432-2384-032C377FCA84</attributeRef>
+<attributeRef>BE1E35D6-F8C3-F2F1-2DCD-F478C73D4CC8</attributeRef>
+<attributeRef>AD6B4755-17E9-E90B-3728-EFC5CD93B66D</attributeRef>
+<attributeRef>A9C08AFD-0EBF-0798-96E1-467342687C2D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
