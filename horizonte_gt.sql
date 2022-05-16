@@ -1,9 +1,14 @@
 -- proyecto 1 fase 2 de laboratoria sistema de base de datos
--- @adolfosonchiche
+-- adolfosonchiche
 -- postgresql 
 --   at:        2022-04-30 20:04:17 CST
 
+--creando base de datos
+CREATE DATABASE horizontesgt;
 
+\c horizontesgt;
+
+--creando entidades (tablas)
 CREATE TABLE ALQUILA_PELICULA 
     (
         id_compra SERIAL NOT NULL , 
@@ -11,7 +16,7 @@ CREATE TABLE ALQUILA_PELICULA
         id_pelicula INTEGER NOT NULL , 
         id_boleto VARCHAR (40) NOT NULL,
         PRIMARY KEY (id_compra),
-	    CHECK(precio > 0) 
+	    CHECK(precio >= 0) 
     )
 ;
 
@@ -26,8 +31,7 @@ CREATE TABLE AVION
         estado VARCHAR (50) NOT NULL , 
         numero_tripulante INTEGER NOT NULL , 
         numero_asiento INTEGER NOT NULL , 
-        fecha_primer_vuelo DATE NOT NULL , 
-        id_distribucion INTEGER NOT NULL,
+        fecha_primer_vuelo DATE NOT NULL ,
         PRIMARY KEY (codigo_avion) 
     )
 ;
@@ -45,7 +49,7 @@ CREATE TABLE BENEFICIO
         maleta_mano VARCHAR (4) , 
         dimension VARCHAR (6),
         PRIMARY KEY (tipo_cuenta),
-        CHECK(milla_por_dolar > 0) 
+        CHECK(milla_por_dolar >= 0) 
     )
 ;
 
@@ -60,7 +64,7 @@ CREATE TABLE BOLETO
      aumento DECIMAL (10,2) , 
      codigo_vuelo VARCHAR (40) NOT NULL,
      PRIMARY KEY (id_boleto),
-     CHECK(total_pago > 0), CHECK(descuento > 0), CHECK(aumento > 0) 
+     CHECK(total_pago >= 0), CHECK(descuento >= 0), CHECK(aumento >= 0) 
     )
 ;
 
@@ -86,11 +90,10 @@ CREATE TABLE CLASE
      maleta_mano VARCHAR (10) NOT NULL , 
      eleccion_asiento BOOLEAN NOT NULL , 
      aseguranza BOOLEAN , 
-     porcentaje DECIMAL (10,2) , 
-     precio DECIMAL (10,2) NOT NULL , 
+     porcentaje DECIMAL (10,2) ,
      id_precio VARCHAR (40) NOT NULL,
      PRIMARY KEY (clase, id_precio),
-     CHECK(porcentaje > 0), CHECK(precio > 0) 
+     CHECK(porcentaje >= 0) 
     )
 ;
 
@@ -110,6 +113,9 @@ CREATE TABLE COMPRA
     (
      codigo_compra VARCHAR (40) NOT NULL , 
      identificacion VARCHAR (40) NOT NULL,
+     fecha_compra DATE NOT NULL , 
+     fecha_cancelacion DATE , 
+     fecha_modificacion DATE ,
      PRIMARY KEY (codigo_compra) 
     )
 ;
@@ -122,20 +128,19 @@ CREATE TABLE COMPRA_MENU
      id_boleto VARCHAR (40) NOT NULL , 
      id_menu INTEGER NOT NULL,
      PRIMARY KEY (id_compra),
-     CHECK(precio > 0) 
+     CHECK(precio >= 0) 
     )
 ;
 
 
 CREATE TABLE COMPRA_WFI 
     (
-     id_compra SERIAL NOT NULL , 
-     producto VARCHAR (100) NOT NULL , 
+     id_compra SERIAL NOT NULL ,  
      precio DECIMAL (10,2) NOT NULL , 
      id_boleto VARCHAR (40) NOT NULL , 
      id_wifi INTEGER NOT NULL,
      PRIMARY KEY (id_compra),
-     CHECK(precio > 0) 
+     CHECK(precio >= 0) 
     )
 ;
 
@@ -145,12 +150,8 @@ CREATE TABLE COMPRADOR
      identificacion VARCHAR (40) NOT NULL , 
      nombre VARCHAR (50) NOT NULL , 
      telefono VARCHAR (15) NOT NULL , 
-     correo VARCHAR (100) NOT NULL , 
-     fecha_compra DATE NOT NULL , 
-     fecha_cancelacion DATE , 
-     fecha_modificacion DATE ,
-     PRIMARY KEY (identificacion), 
-     estado_compra VARCHAR (40) NOT NULL 
+     correo VARCHAR (100) NOT NULL ,
+     PRIMARY KEY (identificacion)
     )
 ;
 
@@ -191,6 +192,7 @@ CREATE TABLE DISTRIBUCION_ASIENTO
      clase VARCHAR (50) NOT NULL , 
      fila VARCHAR (10) NOT NULL , 
      asiento_fila VARCHAR (10) NOT NULL ,
+     codigo_avion VARCHAR (40) NOT NULL ,
      PRIMARY KEY (id_distribucion)
     )
 ;
@@ -205,6 +207,7 @@ CREATE TABLE EMPLEADO
      correo VARCHAR (100) NOT NULL , 
      anio_experiencia VARCHAR (10) NOT NULL , 
      fecha_inicio DATE NOT NULL ,
+     estado BOOLEAN,
      PRIMARY KEY (codigo_empleado)
     )
 ;
@@ -250,7 +253,7 @@ CREATE TABLE IDENTIFICACION
 CREATE TABLE LISTA_INGREDIENTE 
     (
      ingrediente VARCHAR (100) NOT NULL , 
-     descripcion VARCHAR NOT NULL , 
+     descripcion VARCHAR (100) NOT NULL , 
      id_menu INTEGER NOT NULL ,
      PRIMARY KEY (ingrediente, id_menu)
     )
@@ -302,7 +305,7 @@ CREATE TABLE MASCOTA
      nombre VARCHAR (40) NOT NULL , 
      certificado_veterinario VARCHAR (50) NOT NULL , 
      especie VARCHAR (70) NOT NULL , 
-     descripcion VARCHAR , 
+     descripcion VARCHAR (100), 
      peso VARCHAR (25) NOT NULL , 
      tipo VARCHAR (20) , 
      jaula VARCHAR (25) , 
@@ -317,7 +320,7 @@ CREATE TABLE MENU
      id_menu SERIAL NOT NULL , 
      nombre VARCHAR (100) NOT NULL , 
      tipo VARCHAR (25) NOT NULL , 
-     descripcion VARCHAR , 
+     descripcion VARCHAR (100), 
      precio DECIMAL (10,2) NOT NULL , 
      existencia INTEGER NOT NULL , 
      costo DECIMAL (10,2) NOT NULL , 
@@ -342,7 +345,6 @@ CREATE TABLE MILLA_HISTORICO
      id SERIAL NOT NULL , 
      numero_vuelos INTEGER NOT NULL , 
      milla_recorrido DECIMAL (10,2) NOT NULL , 
-     milla_por_dolar DECIMAL (10,2) NOT NULL , 
      usuario VARCHAR (40) NOT NULL,
      PRIMARY KEY (id, usuario),
      CHECK(milla_recorrido >= 0), CHECK(milla_por_dolar >= 0) 
@@ -418,7 +420,7 @@ CREATE TABLE PELICULA
     (
      id_pelicula SERIAL NOT NULL , 
      nombre VARCHAR (90) NOT NULL , 
-     descripcion VARCHAR , 
+     descripcion VARCHAR (100), 
      categoria VARCHAR (80) NOT NULL , 
      clasificacion VARCHAR (50) NOT NULL , 
      actores TEXT [] , 
@@ -460,13 +462,13 @@ CREATE TABLE PLAN_VUELO
     )
 ;
 
-
 CREATE TABLE PRECIO 
-    (
-     id_precio VARCHAR (40) NOT NULL , 
+    (  
+     id_precio SERIAL NOT NULL ,
+     precio   DECIMAL (10, 2) NOT NULL,
      descuento DECIMAL (10,2) , 
      aumento DECIMAL (10,2) , 
-     descripcion VARCHAR,
+     descripcion VARCHAR (100),
      PRIMARY KEY (id_precio),
      CHECK(descuento >= 0), CHECK(aumento >= 0) 
     )
@@ -501,7 +503,7 @@ CREATE TABLE USUARIO
 
 CREATE TABLE VUELO 
     (
-     codigo_vuelo VARCHAR (40) NOT NULL , 
+     codigo_vuelo SERIAL NOT NULL , 
      boletos_vendido INTEGER , 
      estado_vuelo VARCHAR (30) NOT NULL , 
      id_dia INTEGER NOT NULL , 
@@ -535,6 +537,8 @@ CREATE TABLE WIFI
 ;
 
 
+--creando containers
+
 ALTER TABLE ALQUILA_PELICULA 
     ADD CONSTRAINT BOLETO_PASAJERO_FK FOREIGN KEY
     ( 
@@ -561,14 +565,14 @@ ALTER TABLE ALQUILA_PELICULA
     ON UPDATE NO ACTION 
 ;
 
-ALTER TABLE AVION 
+ALTER TABLE DISTRIBUCION_ASIENTO 
     ADD CONSTRAINT AVION_DISTRIBUCION_ASIENTO_FK FOREIGN KEY
     ( 
-     id_distribucion
+     codigo_avion
     ) 
-    REFERENCES DISTRIBUCION_ASIENTO 
+    REFERENCES AVION 
     ( 
-     id_distribucion
+     codigo_avion
     )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION 
@@ -1125,33 +1129,6 @@ ALTER TABLE VUELO_TEMPORAL
 ;
 
 
-
--- Oracle SQL Developer Data Modeler Summary Report: 
 -- 
 -- CREATE TABLE                            42
--- CREATE INDEX                             0
 -- ALTER TABLE                             87
--- CREATE VIEW                              0
--- ALTER VIEW                               0
--- CREATE PACKAGE                           0
--- CREATE PACKAGE BODY                      0
--- CREATE PROCEDURE                         0
--- CREATE FUNCTION                          0
--- CREATE TRIGGER                           0
--- ALTER TRIGGER                            0
--- CREATE STRUCTURED TYPE                   0
--- CREATE ALIAS                             0
--- CREATE BUFFERPOOL                        0
--- CREATE DATABASE                          0
--- CREATE DISTINCT TYPE                     0
--- CREATE INSTANCE                          0
--- CREATE DATABASE PARTITION GROUP          0
--- CREATE SCHEMA                            0
--- CREATE SEQUENCE                          0
--- CREATE TABLESPACE                        0
--- 
--- DROP TABLESPACE                          0
--- DROP DATABASE                            0
--- 
--- ERRORS                                   0
--- WARNINGS                                 0
