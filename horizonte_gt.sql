@@ -62,7 +62,7 @@ CREATE TABLE BOLETO
      total_pago DECIMAL (10,2) , 
      descuento DECIMAL (10,2) , 
      aumento DECIMAL (10,2) , 
-     codigo_vuelo VARCHAR (40) NOT NULL,
+     codigo_vuelo INTEGER NOT NULL,
      PRIMARY KEY (id_boleto),
      CHECK(total_pago >= 0), CHECK(descuento >= 0), CHECK(aumento >= 0) 
     )
@@ -91,7 +91,7 @@ CREATE TABLE CLASE
      eleccion_asiento BOOLEAN NOT NULL , 
      aseguranza BOOLEAN , 
      porcentaje DECIMAL (10,2) ,
-     id_precio VARCHAR (40) NOT NULL,
+     id_precio INTEGER NOT NULL,
      PRIMARY KEY (clase, id_precio),
      CHECK(porcentaje >= 0) 
     )
@@ -103,7 +103,7 @@ CREATE TABLE CLASE_BOLETO
      es_nino BOOLEAN NOT NULL , 
      clase VARCHAR (50) NOT NULL , 
      id_boleto VARCHAR (40) NOT NULL , 
-     id_precio VARCHAR (40) NOT NULL,
+     id_precio INTEGER NOT NULL,
      PRIMARY KEY (clase, id_precio, id_boleto)
     )
 ;
@@ -161,7 +161,7 @@ CREATE TABLE CONTROL_VUELO
      id SERIAL NOT NULL , 
      estado VARCHAR (40) NOT NULL , 
      hora TIME NOT NULL , 
-     codigo_vuelo VARCHAR (40) NOT NULL,
+     codigo_vuelo INTEGER NOT NULL,
      PRIMARY KEY (id, codigo_vuelo) 
     )
 ;
@@ -229,8 +229,8 @@ CREATE TABLE HORARIO_EMPLEADO
      id SERIAL NOT NULL , 
      jornada VARCHAR (20) NOT NULL , 
      fecha DATE NOT NULL , 
-     hora_inicio DATE NOT NULL , 
-     hora_termino DATE NOT NULL , 
+     hora_inicio TIME NOT NULL , 
+     hora_termino TIME NOT NULL , 
      saldo DECIMAL (10,2) NOT NULL , 
      comision DECIMAL (10,2) , 
      codigo_empleado VARCHAR (40) NOT NULL,
@@ -347,7 +347,7 @@ CREATE TABLE MILLA_HISTORICO
      milla_recorrido DECIMAL (10,2) NOT NULL , 
      usuario VARCHAR (40) NOT NULL,
      PRIMARY KEY (id, usuario),
-     CHECK(milla_recorrido >= 0), CHECK(milla_por_dolar >= 0) 
+     CHECK(milla_recorrido >= 0) 
     )
 ;
 
@@ -437,7 +437,7 @@ CREATE TABLE PERSONAL_ABORDO
      id SERIAL NOT NULL , 
      puesto VARCHAR (20) NOT NULL , 
      comision DECIMAL (10,2) NOT NULL , 
-     codigo_vuelo VARCHAR (40) NOT NULL , 
+     codigo_vuelo INTEGER NOT NULL , 
      codigo_empleado VARCHAR (40) NOT NULL,
      PRIMARY KEY (id),
      CHECK(comision >= 0) 

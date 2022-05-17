@@ -133,9 +133,9 @@ INSERT INTO MILLA_HISTORICO (
 INSERT INTO PAGO_USUARIO (
     usuario, id_pago, descripcion
 ) VALUES (
-    'Kamila', 1, 'pago con dinero en efectivo'
+    'Kamila12', 1, 'pago con dinero en efectivo'
 ), (
-    'Kamila', 2, 'tarjeta de credito de Bantrab'
+    'Kamila12', 2, 'tarjeta de credito de Bantrab'
 ), (
     'ana39', 2, 'tarjeta de credito Industrial'
 ), (
@@ -214,29 +214,29 @@ INSERT INTO DISTRIBUCION_ASIENTO (
 
 --inserts empleados
 INSERT INTO EMPLEADO (
-    codigo_empleado, nombre, birthday, telefono, correo, anio_experiencia, fecha_inicio
+    codigo_empleado, nombre, birthday, telefono, correo, anio_experiencia, fecha_inicio, estado
 ) VALUES (
-    'EE-001', 'Vanesa Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '12', '12-05-2010', 0 
+    'EE-001', 'Vanesa Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '12', '12-05-2010', '0' 
 ), (
-    'EE-002', 'Marimar Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '12', '12-05-2010', 0
+    'EE-002', 'Marimar Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '12', '12-05-2010', '0'
 ), (
-    'EE-003', 'Roberto Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '8', '12-05-2014', 0
+    'EE-003', 'Roberto Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '8', '12-05-2014', '0'
 ), (
-    'EE-004', 'Joaquin Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '8', '12-05-2014', 0 
+    'EE-004', 'Joaquin Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '8', '12-05-2014', '0'
 ), (
-    'EE-005', 'Lupita Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '8', '12-05-2014', 0 
+    'EE-005', 'Lupita Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '8', '12-05-2014', '0'
 ), (
-    'EE-006', 'Emiliano Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '6', '12-05-2017', 0 
+    'EE-006', 'Emiliano Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '6', '12-05-2017', '0' 
 ), (
-    'EE-007', 'Estrella Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '6', '12-05-2017', 0 
+    'EE-007', 'Estrella Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '6', '12-05-2017', '0'
 ), (
-    'EE-008', 'Luna Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '5', '12-05-2018', 0 
+    'EE-008', 'Luna Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '5', '12-05-2018', '0'
 ), (
-    'EE-009', 'Damian Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '5', '12-05-2018', 0 
+    'EE-009', 'Damian Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '5', '12-05-2018', '0' 
 ), (
-    'EE-010', 'Wendy Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '3', '12-05-2020', 0 
+    'EE-010', 'Wendy Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '3', '12-05-2020', '0'
 ), (
-    'EE-011', 'Brisa Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '3', '12-05-2020', 0 
+    'EE-011', 'Brisa Lopez', '12-05-2000', '502-1234-5678', 'kamila12@gmail.com', '3', '12-05-2020', '0'
 );
 
 
@@ -357,43 +357,43 @@ INSERT INTO DIA(
 INSERT INTO MENU (
     nombre, tipo, descripcion, precio, existencia, costo, categoria, tiempo_ofrece
 ) VALUES (
-    'bebida alcoholicas', 'primera clase ', 1, 100, 5, 'bebidas', '2:00' 
+    'bebida alcoholicas', 'asdad', 'primera clase ', 1, 100, 5, 'bebidas', '2:00' 
 ), (
-    'gaseosa', 'primera clase ', 0, 100, 4, 'bebidas', '2:00'
+    'gaseosa', 'asdad', 'primera clase ', 0, 100, 4, 'bebidas', '2:00'
 ), (
-    'jugos', 'primera clase', 0, 100, 4, 'bebidas', '2:00'
+    'jugos', 'asdad', 'primera clase', 0, 100, 4, 'bebidas', '2:00'
 ), (
-    'agua', 'primera clase', 0, 100, 4, 'bebidas', '2:00'
+    'agua', 'asdad', 'primera clase', 0, 100, 4, 'bebidas', '2:00'
 ), (
-    'bebida alcoholicas', 'clase business', 1, 100, 5, 'bebidas', '2:00' 
+    'bebida alcoholicas', 'asdad', 'clase business', 1, 100, 5, 'bebidas', '2:00' 
 ), (
-    'gaseosa', 'clase business', 0, 100, 4, 'bebidas', '2:00'
+    'gaseosa', 'asdad', 'clase business', 0, 100, 4, 'bebidas', '2:00'
 ), (
-    'jugos', 'clase business', 0, 100, 4, 'bebidas', '2:00'
+    'jugos', 'asdad', 'clase business', 0, 100, 4, 'bebidas', '2:00'
 ), (
-    'agua', 'clase business', 0, 100, 4, 'bebidas', '2:00'
+    'agua', 'asdad', 'clase business', 0, 100, 4, 'bebidas', '2:00'
 ), (
-    'bebida alcoholicas', 'clase basica y economica', 1, 100, 5, 'bebidas', '3:00' 
+    'bebida alcoholicas', 'asdad', 'clase basica y economica', 1, 100, 5, 'bebidas', '3:00' 
 ), (
-    'gaseosa', 'clase basica y economica', 0, 100, 4, 'bebidas', '3:00'
+    'gaseosa', 'asdad', 'clase basica y economica', 0, 100, 4, 'bebidas', '3:00'
 ), (
-    'jugos', 'clase basica y economica', 0, 100, 4, 'bebidas', '3:00'
+    'jugos', 'asdad', 'clase basica y economica', 0, 100, 4, 'bebidas', '3:00'
 ), (
-    'agua', 'clase basica y economica', 0, 100, 4, 'bebidas', '3:00'
+    'agua', 'asdad', 'clase basica y economica', 0, 100, 4, 'bebidas', '3:00'
 ), (
-    'pastelillos', 'primera clase ', 1, 100, 5, 'comida', '2:00' 
+    'pastelillos', 'asdad', 'primera clase ', 1, 100, 5, 'comida', '2:00' 
 ), (
-    'galletas', 'primera clase ', 0, 100, 4, 'comida', '2:00'
+    'galletas', 'asdad', 'primera clase ', 0, 100, 4, 'comida', '2:00'
 ), (
-    'palomitas', 'primera clase', 0, 100, 4, 'comida', '2:00'
+    'palomitas', 'asdad', 'primera clase', 0, 100, 4, 'comida', '2:00'
 ), (
-    'galletas', 'clase business', 4, 100, 3, 'comida', '2:00' 
+    'galletas', 'asdad', 'clase business', 4, 100, 3, 'comida', '2:00' 
 ), (
-    'palomitas', 'clase business', 5, 100, 4, 'comida', '2:00'
+    'palomitas', 'asdad', 'clase business', 5, 100, 4, 'comida', '2:00'
 ), (
-    'pastelillos', 'clase basica y economica', 6, 100, 5, 'comida', '3:00' 
+    'pastelillos', 'asdad', 'clase basica y economica', 6, 100, 5, 'comida', '3:00' 
 ), (
-    'galletas', 'clase basica y economica', 5, 100, 4, 'comida', '3:00'
+    'galletas', 'asdad', 'clase basica y economica', 5, 100, 4, 'comida', '3:00'
 );
 
 INSERT INTO LISTA_INGREDIENTE (
@@ -512,7 +512,7 @@ INSERT INTO PRECIO (
 
 --inserts clases de vuelo
 INSERT INTO CLASE (
-    clase, tarifa_cambio, maleta_documentada, peso_md, maleta_mano, eleccion_asiento, aseguranza, porcentaje, id__precio
+    clase, tarifa_cambio, maleta_documentada, peso_md, maleta_mano, eleccion_asiento, aseguranza, porcentaje, id_precio
 ) VALUES (
     'primera-clase', '0', '2', '50 lbs', '1', '1', '1', '20', 1
 ), (
@@ -534,9 +534,11 @@ INSERT INTO CLASE (
 
 --insert plan de vuelos
 INSERT INTO PLAN_VUELO (
-    id_plan_vuelo, distancia_milla, hora_llegada, hora_salida, puerta_salida, puerta_llegada, aeropuerto_salida, aeropuerto_salida, codigo_avion, es_temporal
+    id_plan_vuelo, distancia_milla, hora_llegada, hora_salida, puerta_salida, puerta_llegada, aeropuerto_salida, aeropuerto_llegada, codigo_avion, es_temporal
 ) VALUES (
     'PV-0001', 10.5, '16:00', '12:00', 'P-001', 'P-004', 'la aurora', 'los altos', 'AV-001', '0'
+), (
+    'PV-0002', 10.5, '16:00', '12:00', 'P-001', 'P-004', 'la aurora', 'los altos', 'AV-001', '0'
 ), (
     'PV-0003', 3.5, '16:00', '12:00', 'P-001', 'P-004', 'la aurora', 'los altos', 'AV-001', '0'
 ), (
@@ -624,7 +626,7 @@ INSERT INTO DIA_VUELO (
     'PV-0009', 4
 ), (
     'PV-0012', 2
-)
+);
 
 --inserts vuelo temporal
 INSERT INTO VUELO_TEMPORAL (
@@ -744,78 +746,78 @@ INSERT INTO BOLETO (
 INSERT INTO CLASE_BOLETO (
     es_nino, clase, id_boleto, id_precio
 ) VALUES (
-    0, 'prmera-clase', 'CB-000001', 5
+    '0', 'primera-clase', 'CB-000001', 5
 ), (
-    0, 'prmera-clase', 'CB-000002', 5
+    '0', 'primera-clase', 'CB-000002', 5
 ), (
-    0, 'prmera-clase', 'CB-000003', 5
+    '0', 'primera-clase', 'CB-000003', 5
 ), (
-    0, 'prmera-clase', 'CB-000004', 5
+    '0', 'primera-clase', 'CB-000004', 5
 ), (
-    0, 'prmera-clase', 'CB-000005', 5
+    '0', 'primera-clase', 'CB-000005', 5
 ), (
-    0, 'prmera-clase', 'CB-000006', 5
+    '0', 'primera-clase', 'CB-000006', 5
 ), (
-    0, 'prmera-clase', 'CB-000007', 5
+    '0', 'primera-clase', 'CB-000007', 5
 ), (
-    0, 'prmera-clase', 'CB-000008', 5
+    '0', 'primera-clase', 'CB-000008', 5
 ), (
-    0, 'prmera-clase', 'CB-000009', 5
+    '0', 'primera-clase', 'CB-000009', 5
 ), (
-    0, 'prmera-clase', 'CB-000010', 5
+    '0', 'primera-clase', 'CB-000010', 5
 ), (
-    1, 'prmera-clase', 'CB-000011', 5
+    '1', 'primera-clase', 'CB-000011', 5
 ), (
-    0, 'clase-economica-basica', 'CB-000012', 8
+    '0', 'clase-economica-basica', 'CB-000012', 8
 ), (
-    0, 'prmera-clase', 'CB-000013', 5
+    '0', 'primera-clase', 'CB-000013', 5
 ), (
-    0, 'clase-business', 'CB-000014', 6
+    '0', 'clase-business', 'CB-000014', 6
 ), (
-    0, 'prmera-clase', 'CB-000015', 5
+    '0', 'primera-clase', 'CB-000015', 5
 ), (
-    0, 'prmera-clase', 'CB-000016', 5
+    '0', 'primera-clase', 'CB-000016', 5
 ), (
-    0, 'prmera-clase', 'CB-000017', 5
+    '0', 'primera-clase', 'CB-000017', 5
 ), (
-    0, 'prmera-clase', 'CB-000018', 5
+    '0', 'primera-clase', 'CB-000018', 5
 ), (
-    0, 'prmera-clase', 'CB-000019', 5
+    '0', 'primera-clase', 'CB-000019', 5
 ), (
-    0, 'prmera-clase', 'CB-000020', 5
+    '0', 'primera-clase', 'CB-000020', 5
 ), (
-    0, 'prmera-clase', 'CB-000021', 5
+    '0', 'primera-clase', 'CB-000021', 5
 ), (
-    0, 'prmera-clase', 'CB-000022', 5
+    '0', 'primera-clase', 'CB-000022', 5
 ), (
-    1, 'prmera-clase', 'CB-000023', 5
+    '1', 'primera-clase', 'CB-000023', 5
 ), (
-    0, 'prmera-clase', 'CB-000024', 5
+    '0', 'primera-clase', 'CB-000024', 5
 ), (
-    0, 'clase-economica-basica', 'CB-000025', 8
+    '0', 'clase-economica-basica', 'CB-000025', 8
 ), (
-    0, 'clase-business', 'CB-000026', 6
+    '0', 'clase-business', 'CB-000026', 6
 ), (
-    0, 'prmera-clase', 'CB-000027', 5
+    '0', 'primera-clase', 'CB-000027', 5
 ), (
-    0, 'clase-economica', 'CB-000028', 7
+    '0', 'clase-economica', 'CB-000028', 7
 );
 
 --inserts
 INSERT INTO COMPRADOR (
     identificacion, nombre, telefono, correo
 ) VALUES (
-    '111110111111', 'Juan sdfs', '122232344', 'fasdfsa@adslfs.com', 
+    '111110111111', 'Juan sdfs', '122232344', 'fasdfsa@adslfs.com' 
 ), (
-    '111110222222', 'Pedro sdfs', '122232344', 'fasdfsa@adslfs.com', 
+    '111110222222', 'Pedro sdfs', '122232344', 'fasdfsa@adslfs.com' 
 ), (
-    '111110333333', 'Rosario sdfs', '122232344', 'fasdfsa@adslfs.com', 
+    '111110333333', 'Rosario sdfs', '122232344', 'fasdfsa@adslfs.com' 
 ), (
-    '111110444444', 'Lucia sdfs', '122232344', 'fasdfsa@adslfs.com', 
+    '111110444444', 'Lucia sdfs', '122232344', 'fasdfsa@adslfs.com' 
 ), (
-    '111110555555', 'Faustina sdfs', '122232344', 'fasdfsa@adslfs.com', 
+    '111110555555', 'Faustina sdfs', '122232344', 'fasdfsa@adslfs.com' 
 ), (
-    '111110666666', 'Lola sdfs', '122232344', 'fasdfsa@adslfs.com', 
+    '111110666666', 'Lola sdfs', '122232344', 'fasdfsa@adslfs.com'
 );
 
 --inserts personal abordo
@@ -845,22 +847,6 @@ INSERT INTO PERSONAL_ABORDO (
     'asafata', '200', 3, 'EE-007'
 );
 
---inserts supervisores
-INSERT INTO SUPERVISOR (
-    id_boleto, id
-) VALUES (
-    'CB-000006', 3
-), (
-    'CB-000007', 3
-), (
-    'CB-000013', 5
-), (
-    'CB-000020', 5
-), (
-    'CB-000021', 8
-), (
-    'CB-000027', 8
-);
 
 --inserts pasajeros
 INSERT INTO PASAJERO (
@@ -1076,6 +1062,24 @@ INSERT INTO BOLETO_PASAJERO (
     'CB-000028', '1111111028', 15, 'CC-000009'
 );
 
+
+--inserts supervisores
+INSERT INTO SUPERVISOR (
+    id_boleto, id
+) VALUES (
+    'CB-000006', 3
+), (
+    'CB-000007', 3
+), (
+    'CB-000013', 5
+), (
+    'CB-000020', 5
+), (
+    'CB-000021', 8
+), (
+    'CB-000027', 8
+);
+
 --inserts mascotas y sus vacunas
 INSERT INTO MASCOTA (
     nombre, certificado_veterinario, especie, descripcion, peso, tipo, jaula, id_boleto
@@ -1094,21 +1098,15 @@ INSERT INTO MASCOTA (
 INSERT INTO LISTA_VACUNA (
     vacuna, certificado_veterinario, nombre
 ) VALUES (
-    'contra el sarampion', '0001', 'SARS-1'
+    'contra el sarampion', '0001', 'pinki'
 ), (
-    'contra las garapatas', '0001', 'DIS-1'
+    'contra el sarampion', '0002', 'lanky'
 ), (
-    'contra el sarampion', '0002', 'SARS-1'
+    'contra las garapatas', '0003', 'firulais'
 ), (
-    'contra las garapatas', '0003', 'DIS-1'
+    'contra el sarampion', '0004', 'kalili'
 ), (
-    'contra el sarampion', '0004', 'SARS-1'
-), (
-    'contra las garapatas', '0004', 'DIS-1'
-), (
-    'contra el sarampion', '0005', 'SARS-1'
-), (
-    'contra las garapatas', '0005', 'DIS-1'
+    'contra el sarampion', '0005', 'mily'
 );
 
 --inserts peliculas alquiladas
@@ -1125,7 +1123,7 @@ INSERT INTO ALQUILA_PELICULA (
 ), (
     0, 2, 'CB-000003'
 ), (
-    50, 7, 'CB-0000012'
+    50, 7, 'CB-000012'
 ), (
     0, 1, 'CB-000015'
 ), (
@@ -1143,29 +1141,29 @@ INSERT INTO ALQUILA_PELICULA (
 INSERT INTO PAGO_PELICULA (
     descripcion, id_pago, id_compra
 ) VALUES (
-    'adasdfaasd fasd', 1, 1
+    'adasdfaasd fasd', 1, 13
 ), (
-    'adasdfaasd fasd', 1, 2
+    'adasdfaasd fasd', 1, 14
 ), (
-    'adasdfaasd fasd', 2, 3
+    'adasdfaasd fasd', 2, 15
 ), (
-    'adasdfaasd fasd', 3, 4
+    'adasdfaasd fasd', 3, 15
 ), (
-    'adasdfaasd fasd', 3, 5
+    'adasdfaasd fasd', 3, 17
 ), (
-    'adasdfaasd fasd', 1, 6
+    'adasdfaasd fasd', 1, 18
 ), (
-    'adasdfaasd fasd', 2, 7
+    'adasdfaasd fasd', 2, 19
 ), (
-    'adasdfaasd fasd', 2, 8
+    'adasdfaasd fasd', 2, 20
 ), (
-    'adasdfaasd fasd', 4, 9
+    'adasdfaasd fasd', 4, 21
 ), (
-    'adasdfaasd fasd', 4, 10
+    'adasdfaasd fasd', 4, 22
 ), (
-    'adasdfaasd fasd', 1, 11
+    'adasdfaasd fasd', 1, 23
 ), (
-    'adasdfaasd fasd', 3, 12
+    'adasdfaasd fasd', 3, 24
 );
 
 --inserts menus adquiridos
@@ -1182,7 +1180,7 @@ INSERT INTO COMPRA_MENU (
 ), (
     0, 2, 'CB-000003'
 ), (
-    5, 7, 'CB-0000012'
+    5, 7, 'CB-000012'
 ), (
     0, 14, 'CB-000015'
 ), (
@@ -1200,33 +1198,33 @@ INSERT INTO COMPRA_MENU (
 INSERT INTO PAGO_MENU (
     descripcion, id_pago, id_compra
 ) VALUES (
-    'adasdfaasd fasd', 1, 1
+    'adasdfaasd fasd', 1, 13
 ), (
-    'adasdfaasd fasd', 1, 2
+    'adasdfaasd fasd', 1, 14
 ), (
-    'adasdfaasd fasd', 2, 3
+    'adasdfaasd fasd', 2, 15
 ), (
-    'adasdfaasd fasd', 3, 4
+    'adasdfaasd fasd', 3, 16
 ), (
-    'adasdfaasd fasd', 3, 5
+    'adasdfaasd fasd', 3, 17
 ), (
-    'adasdfaasd fasd', 1, 6
+    'adasdfaasd fasd', 1, 18
 ), (
-    'adasdfaasd fasd', 2, 7
+    'adasdfaasd fasd', 2, 19
 ), (
-    'adasdfaasd fasd', 2, 8
+    'adasdfaasd fasd', 2, 20
 ), (
-    'adasdfaasd fasd', 4, 9
+    'adasdfaasd fasd', 4, 21
 ), (
-    'adasdfaasd fasd', 4, 10
+    'adasdfaasd fasd', 4, 22
 ), (
-    'adasdfaasd fasd', 1, 11
+    'adasdfaasd fasd', 1, 23
 ), (
-    'adasdfaasd fasd', 3, 12
+    'adasdfaasd fasd', 3, 24
 );
 
 --inserts de wifi
-INSERT INTO COMPRA_MENU (
+INSERT INTO COMPRA_WFI (
     precio, id_wifi, id_boleto
 ) VALUES (
     10, 1, 'CB-000001'
@@ -1235,51 +1233,51 @@ INSERT INTO COMPRA_MENU (
 ), (
     10, 3, 'CB-000006'
 ), (
-    10, 13, 'CB-000002'
+    10, 5, 'CB-000002'
 ), (
     10, 2, 'CB-000003'
 ), (
-    10, 7, 'CB-0000012'
+    10, 3, 'CB-000012'
 ), (
-    10, 14, 'CB-000015'
+    10, 5, 'CB-000015'
 ), (
     10, 6, 'CB-000020'
 ), (
-    10, 9, 'CB-000026'
+    10, 4, 'CB-000026'
 ), (
-    10, 10, 'CB-000022'
+    10, 1, 'CB-000022'
 ), (
-    10, 14, 'CB-000027'
+    10, 3, 'CB-000027'
 ), (
-    10, 18, 'CB-000028'
+    10, 2, 'CB-000028'
 );
 
 INSERT INTO PAGO_WIFI (
     descripcion, id_pago, id_compra
 ) VALUES (
-    'adasdfaasd fasd', 1, 1
+    'adasdfaasd fasd', 1, 37
 ), (
-    'adasdfaasd fasd', 1, 2
+    'adasdfaasd fasd', 1, 38
 ), (
-    'adasdfaasd fasd', 2, 3
+    'adasdfaasd fasd', 2, 39
 ), (
-    'adasdfaasd fasd', 3, 4
+    'adasdfaasd fasd', 3, 40
 ), (
-    'adasdfaasd fasd', 3, 5
+    'adasdfaasd fasd', 3, 41
 ), (
-    'adasdfaasd fasd', 1, 6
+    'adasdfaasd fasd', 1, 42
 ), (
-    'adasdfaasd fasd', 2, 7
+    'adasdfaasd fasd', 2, 43
 ), (
-    'adasdfaasd fasd', 2, 8
+    'adasdfaasd fasd', 2, 44
 ), (
-    'adasdfaasd fasd', 4, 9
+    'adasdfaasd fasd', 4, 45
 ), (
-    'adasdfaasd fasd', 4, 10
+    'adasdfaasd fasd', 4, 46
 ), (
-    'adasdfaasd fasd', 1, 11
+    'adasdfaasd fasd', 1, 47
 ), (
-    'adasdfaasd fasd', 3, 12
+    'adasdfaasd fasd', 3, 48
 );
 
 --inserts historial de maletas de los vuelos
@@ -1310,3 +1308,5 @@ INSERT INTO MALETA_HISTORIAL (
 ), (
     '50', 'documentado', 50, 'CB-000024', '0', 'primera maleta', 1
 );
+
+
