@@ -67,7 +67,7 @@ ORDER BY total_ingreso DESC;
 --4--Obtener el tipo de avión que genera más ingresos en compras a bordo. Se debe
 --obtener un promedio por vuelo de las ganancias de wifi, películas y comida en un
 --intervalo de vuelo. Se debe adjuntar el número de vuelos.
-SELECT * FROM 
+SELECT * FROM AVION;
 
 
 
@@ -76,8 +76,33 @@ SELECT * FROM
 
 --5--Obtener el total de gastos en un intervalo de tiempo que incluya gastos en
 --empleados, comisiones y productos a bordo.
-SELECT * FROM COMPRA_MENU;
 
+
+CREATE FUNCTION total_gastos() 
+RETURNS DECIMAL(10,2) 
+AS $$
+BEGIN
+    RETURN (
+            (
+                SELECT SUM(saldo) FROM HORARIO_EMPLEADO WHERE fecha BETWEEN '01-04-2022'AND '30-04-2022'
+            )
+            +
+            (
+                SELECT SUM(comision) FROM HORARIO_EMPLEADO WHERE fecha BETWEEN '01-04-2022'AND '30-04-2022'
+            )
+            +
+            (
+                SELECT SUM(costo) FROM MENU
+            )
+            +
+            (
+                SELECT SUM(costo) FROM PELICULA
+            )
+    ) ;
+END ;
+$$ LANGUAGE plpgsql;
+
+SELECT total_gastos();
 
 
 --6--Obtener una lista de planes de vuelo y mostrar el numero de veces que los vuelos
@@ -185,20 +210,20 @@ SELECT e.codigo_empleado, e.nombre,
     (
      ((
        SELECT h.hora_termino FROM HORARIO_EMPLEADO AS h 
-       WHERE h.codigo_empleado = e.codigo_empleado LIMIT 1  
+       WHERE h.codigo_empleado = e.codigo_empleado AND h.fecha BETWEEN '01-04-2022'AND '30-04-2022' LIMIT 1  
      ) -
      (
          SELECT h.hora_inicio FROM HORARIO_EMPLEADO AS h 
-         WHERE h.codigo_empleado = e.codigo_empleado LIMIT 1
+         WHERE h.codigo_empleado = e.codigo_empleado AND h.fecha BETWEEN '01-04-2022'AND '30-04-2022' LIMIT 1
      ))*30
     ) AS horas_trabajo,
     ((
         SELECT SUM(saldo) FROM HORARIO_EMPLEADO AS h 
-        WHERE h.codigo_empleado = e.codigo_empleado
+        WHERE h.codigo_empleado = e.codigo_empleado AND h.fecha BETWEEN '01-04-2022'AND '30-04-2022'
      ) +
      (
         SELECT SUM(comision) FROM HORARIO_EMPLEADO AS h 
-        WHERE h.codigo_empleado = e.codigo_empleado
+        WHERE h.codigo_empleado = e.codigo_empleado AND h.fecha BETWEEN '01-04-2022'AND '30-04-2022'
      )
     ) AS sueldo_mensual,
     (
