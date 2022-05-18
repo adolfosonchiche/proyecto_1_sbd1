@@ -656,7 +656,20 @@ INSERT INTO VUELO (
     10, 'completado', 7, '20-04-2022', 'PV-0004'
 ), (
     5, 'pendiente', 5, '20-04-2022', 'PV-0010'
+), (
+    20, 'cancelado', 1, '20-03-2022', 'PV-0001'
+), (
+    50, 'completado', 3, '20-03-2022', 'PV-0001'
+), (
+    10, 'completado', 4, '20-03-2022', 'PV-0004'
+), (
+    5, 'completado', 3, '20-02-2022', 'PV-0002'
+), (
+    10, 'completado', 7, '20-02-2022', 'PV-0004'
+), (
+    5, 'pendiente', 5, '20-01-2022', 'PV-0010'
 );
+
 
 --inserts control vuelo
 INSERT INTO CONTROL_VUELO (
