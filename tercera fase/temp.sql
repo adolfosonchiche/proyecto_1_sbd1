@@ -173,3 +173,12 @@ ON P.id_empleado_Empleado = E.id_empleado
 INNER JOIN aerolinea.acompanante_tripulacion AT
 ON AT.id_Personal_Abordo= P.id Group By E.id_empleado
 
+
+
+
+
+
+
+
+
+UPDATE VUELO SET estado_vuelo = 'retrasado' WHERE codigo_vuelo = 6;
